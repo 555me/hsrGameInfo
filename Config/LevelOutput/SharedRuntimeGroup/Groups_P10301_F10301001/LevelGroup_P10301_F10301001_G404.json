@@ -1,12 +1,10 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Park",
+  "Category": "Atmosphere",
   "LevelGraph": "Config/Level/GroupGraph/F10301001/Group_F10301001_G404.json",
   "AreaAnchorName": "LevelArea_P10301_F10301001_G404",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
+  "AtmosphereCondition": {},
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "GroupStateList": [
@@ -125,6 +123,14 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Interactable",
+        "TagHash": 597667137
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -150,6 +156,7 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -158,6 +165,7 @@
         "PackList": []
       },
       "InteractIconType": "CheckIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": 278713937
       },
@@ -188,6 +196,7 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -196,6 +205,7 @@
         "PackList": []
       },
       "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": -1141120092
       },
@@ -227,6 +237,7 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -235,6 +246,7 @@
         "PackList": []
       },
       "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": 736845527
       },
@@ -266,6 +278,7 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -274,6 +287,7 @@
         "PackList": []
       },
       "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": 21679322
       },
@@ -305,6 +319,7 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -313,6 +328,7 @@
         "PackList": []
       },
       "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": 1184478736
       },
@@ -343,6 +359,7 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -351,6 +368,7 @@
         "PackList": []
       },
       "InteractIconType": "ChatIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": -829238396
       },
@@ -374,6 +392,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

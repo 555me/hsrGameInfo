@@ -13,7 +13,14 @@
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
   "ConflictWhiteList": [],
-  "TagContainer": {},
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -34,7 +41,6 @@
   "PropList": [
     {
       "PropID": 138,
-      "InitLevelGraph": "Config/Level/Common_LG/TriggerCameraLookat.json",
       "ValueSource": {
         "Values": []
       },
@@ -50,14 +56,13 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "AnchorGroupID": 280,
       "AnchorID": 2,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {
-        "TargetList": []
-      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -77,5 +82,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

@@ -15,7 +15,14 @@
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
   "ConflictWhiteList": [],
-  "TagContainer": {},
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialEntrance",
+        "TagHash": -1446353026
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Usage": "Actor",
@@ -81,6 +88,7 @@
       },
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "AnchorGroupID": 186,
       "AnchorID": 1,
       "MappingInfoID": 1014,
@@ -102,7 +110,7 @@
           "IconID": 62
         }
       ],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -122,5 +130,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

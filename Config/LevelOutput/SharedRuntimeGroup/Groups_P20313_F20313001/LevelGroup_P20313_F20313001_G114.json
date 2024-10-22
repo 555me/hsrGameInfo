@@ -4,6 +4,7 @@
   "AreaAnchorName": "LevelArea_P20313_F20313001_G114",
   "SaveType": "Reset",
   "SavedValueCondition": {
+    "Conditions": [],
     "Operation": "And"
   },
   "LoadOnInitial": true,
@@ -12,6 +13,14 @@
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
   "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Default",
+        "TagHash": 1403890554
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -54,10 +63,14 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -90,10 +103,12 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -113,5 +128,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

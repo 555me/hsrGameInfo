@@ -11,7 +11,16 @@
       }
     ]
   },
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.TeleportEntrance",
+        "TagHash": -818745016
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -27,6 +36,7 @@
       "PropID": 107,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/Chapter00/Exit_N1.json",
+      "ValueSource": {},
       "Trigger": {
         "Shape": "Box",
         "Radius": 1,
@@ -38,12 +48,21 @@
       "CampID": 4,
       "OverrideHintRange": 0,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "MappingInfoID": 2242,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "OverrideMapIconType": 99,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "Prop1",
       "ID": 300001,
       "PosX": 0.003,
@@ -57,5 +76,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

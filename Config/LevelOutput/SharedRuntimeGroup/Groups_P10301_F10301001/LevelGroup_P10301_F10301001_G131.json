@@ -10,7 +10,6 @@
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
   "ConflictWhiteList": [],
-  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -54,10 +53,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -93,10 +93,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -134,7 +135,9 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010231,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideBehaviorType": "DreamlandActor",
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -150,6 +153,9 @@
   ],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

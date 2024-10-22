@@ -2,6 +2,7 @@
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "MissionPropClient2",
   "AreaAnchorName": "LevelArea_P20001_F20001001_G30",
+  "SaveType": "Reset",
   "LoadCondition": {
     "Conditions": [
       {
@@ -20,16 +21,34 @@
       }
     ]
   },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
     {
       "PropID": 100009,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop1",
       "ID": 300001,
       "PosX": -23.48,
@@ -40,10 +59,18 @@
       "PropID": 100016,
       "LoadOnInitial": false,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop2",
       "ID": 300002,
       "PosX": -23.86,
@@ -57,5 +84,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

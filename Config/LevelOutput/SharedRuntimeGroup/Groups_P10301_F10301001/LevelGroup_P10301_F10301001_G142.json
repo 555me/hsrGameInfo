@@ -1,19 +1,24 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "NPC",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10301_F10301001_G142",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
+  "AtmosphereCondition": {},
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
   "ConflictWhiteList": [],
-  "TagContainer": {},
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -36,7 +41,9 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100030210,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideBehaviorType": "DreamlandActor",
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -58,6 +65,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020336,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -79,6 +88,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -94,6 +105,9 @@
   ],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

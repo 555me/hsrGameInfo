@@ -19,7 +19,14 @@
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
   "ConflictWhiteList": [],
-  "TagContainer": {},
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Crowd",
+        "TagHash": -581694062
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -47,7 +54,10 @@
         "LevelGraph": "Config/Level/NPCDialogue/P10304/F10304001_G107/DialogueMain_F10304001_G107_N400001.json",
         "PackList": []
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
+      "CameraConfig": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -80,6 +90,8 @@
         "LevelGraph": "Config/Level/NPCDialogue/P10304/F10304001_G107/DialogueMain_F10304001_G107_N400002.json",
         "PackList": []
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -113,6 +125,8 @@
         "LevelGraph": "Config/Level/NPCDialogue/P10304/F10304001_G107/DialogueMain_F10304001_G107_N400003.json",
         "PackList": []
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -142,6 +156,8 @@
         "LevelGraph": "Config/Level/NPCDialogue/P10304/F10304001_G107/DialogueMain_F10304001_G107_N400004.json",
         "PackList": []
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -175,6 +191,8 @@
         "LevelGraph": "Config/Level/NPCDialogue/P10304/F10304001_G107/DialogueMain_F10304001_G107_N400005.json",
         "PackList": []
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -190,6 +208,9 @@
   ],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

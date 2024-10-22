@@ -1,7 +1,6 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Railcar",
-  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P20004_F20004001_G4",
   "LoadCondition": {
     "Conditions": [
@@ -14,6 +13,14 @@
   "LoadSide": "Server",
   "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Connection",
+        "TagHash": -295833477
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor3",
@@ -102,14 +109,16 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "OverrideMapIconType": 98,
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideBoardShowList": [
         4
       ],
-      "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -164,11 +173,13 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "OverrideMapIconType": 98,
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -223,11 +234,13 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "OverrideMapIconType": 98,
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -282,11 +295,13 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "OverrideMapIconType": 98,
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -341,11 +356,13 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "OverrideMapIconType": 98,
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -364,5 +381,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

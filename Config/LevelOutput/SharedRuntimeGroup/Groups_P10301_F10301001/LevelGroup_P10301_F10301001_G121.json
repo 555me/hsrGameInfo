@@ -10,7 +10,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
-  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -36,6 +35,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -51,6 +52,9 @@
   ],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

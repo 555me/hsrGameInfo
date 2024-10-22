@@ -58,7 +58,16 @@
       }
     ]
   },
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -132,6 +141,9 @@
           "Operation": "Or"
         }
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC1",
       "RotY": 171.6731,
       "ID": 400001,
@@ -141,5 +153,10 @@
     }
   ],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

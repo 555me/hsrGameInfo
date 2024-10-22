@@ -3,6 +3,16 @@
   "GroupName": "SimpleMission_4040018",
   "AreaAnchorName": "LevelArea_P20001_F20001001_G107",
   "SaveType": "Reset",
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -31,12 +41,22 @@
       },
       "PropID": 100047,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "Prop1",
       "RotY": 183.2,
       "ID": 300001,
@@ -59,6 +79,9 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010900,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC1",
       "RotY": 180,
       "ID": 400001,
@@ -68,5 +91,10 @@
     }
   ],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

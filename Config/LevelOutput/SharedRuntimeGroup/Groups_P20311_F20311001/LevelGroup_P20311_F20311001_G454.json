@@ -43,7 +43,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
-  "TagContainer": {},
   "AnchorList": [
     {
       "RotX": 25.00002,
@@ -99,7 +98,6 @@
   "PropList": [
     {
       "PropID": 103012,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_JigsawPuzzle_JigsawSir.json",
       "ValueSource": {
         "Values": [
           {
@@ -149,6 +147,7 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "MappingInfoID": 10061,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -171,7 +170,7 @@
           "IconID": 89
         }
       ],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -185,7 +184,6 @@
     },
     {
       "PropID": 103109,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_JigsawPuzzle_CollectablePiece.json",
       "ValueSource": {
         "Values": [
           {
@@ -208,10 +206,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -224,7 +223,6 @@
     },
     {
       "PropID": 103109,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_JigsawPuzzle_CollectablePiece.json",
       "ValueSource": {
         "Values": [
           {
@@ -247,10 +245,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -263,7 +262,6 @@
     },
     {
       "PropID": 103109,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_JigsawPuzzle_CollectablePiece.json",
       "ValueSource": {
         "Values": [
           {
@@ -286,10 +284,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -326,10 +325,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -344,7 +344,6 @@
       "RotX": 5.351544,
       "RotZ": -1E-06,
       "PropID": 60302,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_TreasureBox_01.json",
       "ValueSource": {},
       "CampID": 4,
       "State": "Hidden",
@@ -357,15 +356,19 @@
         }
       },
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "ChestID": 20311668,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideTriggerValidGuestConfig": true,
       "TriggerValidGuest": {
         "FakePlayer": true
       },
+      "TagOverrideComponents": {},
       "CameraCenterEntityList": [],
+      "CameraConfig": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -384,7 +387,7 @@
         "Values": [
           {
             "$type": "RPG.GameCore.SharedString",
-            "Value": "434,300006",
+            "Value": "454,300006",
             "Key": "Chest"
           }
         ]
@@ -393,12 +396,15 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "MappingInfoID": 10061,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
       "CameraCenterEntityList": [],
+      "CameraConfig": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -417,5 +423,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

@@ -36,6 +36,16 @@
     ]
   },
   "LoadSide": "Server",
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [
     {
@@ -58,6 +68,7 @@
       "BoardShowList": [
         2
       ],
+      "TagList": [],
       "Name": "Monster2",
       "ID": 200002,
       "PosX": 27.53,
@@ -114,5 +125,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

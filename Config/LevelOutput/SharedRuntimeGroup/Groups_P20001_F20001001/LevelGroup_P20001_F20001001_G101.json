@@ -1,6 +1,7 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Shelter Group",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P20001_F20001001_G101",
   "SaveType": "Reset",
   "LoadCondition": {
@@ -8,6 +9,16 @@
       {
         "Phase": "Finish",
         "ID": 1000401
+      }
+    ]
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.SafeRoom",
+        "TagHash": 852846579
       }
     ]
   },
@@ -108,5 +119,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

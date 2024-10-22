@@ -11,6 +11,16 @@
     ]
   },
   "LoadSide": "Server",
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialEntrance",
+        "TagHash": -1446353026
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -53,10 +63,13 @@
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 5,
+          "PointList": [],
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "AnchorGroupID": 19,
       "AnchorID": 1,
       "MappingInfoID": 1006,
@@ -85,6 +98,9 @@
           "IconID": 66
         }
       ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop1",
       "RotY": 180,
       "ID": 300001,
@@ -99,5 +115,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

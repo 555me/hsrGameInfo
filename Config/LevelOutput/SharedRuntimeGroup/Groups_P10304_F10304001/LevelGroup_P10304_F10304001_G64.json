@@ -137,6 +137,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -172,6 +174,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -207,6 +211,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -242,6 +248,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -277,6 +285,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -312,6 +322,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -347,6 +359,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -382,6 +396,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -417,6 +433,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -452,6 +470,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -487,6 +507,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -522,6 +544,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -557,6 +581,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -592,6 +618,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -627,6 +655,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -662,6 +692,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -697,6 +729,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -732,6 +766,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -767,6 +803,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -802,6 +840,8 @@
       "DefaultIdleFreeStyleMotionID": 900090000,
       "FreeStyleAnimGraphName": "IdleShow01_StandBy",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -821,6 +861,9 @@
   ],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

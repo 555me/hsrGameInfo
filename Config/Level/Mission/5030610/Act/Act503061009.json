@@ -14,13 +14,8 @@
           "$type": "RPG.GameCore.AdvNpcFaceToPlayer"
         },
         {
-          "$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
-          "SimpleTalkList": [
-            {
-              "TalkSentenceID": 503061111,
-              "ProtectTime": 0.3
-            }
-          ]
+          "$type": "RPG.GameCore.PlayMultiVoiceTalk",
+          "TalkSentenceID": 503061111
         },
         {
           "$type": "RPG.GameCore.EndPerformance"

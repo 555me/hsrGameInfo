@@ -63,7 +63,8 @@
           "Type": "SkillTreeParam",
           "Str": "SkillMaze"
         }
-      }
+      },
+      "-467730458": {}
     }
   },
   "EnableFootIK": true,

@@ -2,17 +2,33 @@
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "MonsterFlock_After",
   "AreaAnchorName": "LevelArea_P20101_F20101001_G32",
-  "LoadCondition": {
+  "SavedValueCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1011403
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
+      },
+      {
+        "SavedValueName": "WorldStateByMainMission",
+        "Value": 1
       }
-    ]
+    ],
+    "Operation": "And"
   },
   "LoadSide": "Server",
   "GroupRefreshID": 1001,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Monster",
+        "TagHash": -1058465803
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [
     {
@@ -31,6 +47,7 @@
       "BoardShowList": [
         2
       ],
+      "TagList": [],
       "Name": "Monster1",
       "RotY": 42.20557,
       "ID": 200001,
@@ -53,6 +70,7 @@
       "BoardShowList": [
         2
       ],
+      "TagList": [],
       "Name": "Monster2",
       "RotY": 178.4092,
       "ID": 200002,
@@ -75,6 +93,7 @@
       "BoardShowList": [
         2
       ],
+      "TagList": [],
       "Name": "Monster3",
       "RotY": 288.3311,
       "ID": 200003,
@@ -90,5 +109,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

@@ -910,10 +910,6 @@
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_InvisibleMonster_DepthMask.prefab"
         },
         {
-          "$type": "RPG.GameCore.SetNoShadowCaster",
-          "UseAllRenderer": true
-        },
-        {
           "$type": "RPG.GameCore.ModifierAttachEffect",
           "TargetType": {
             "$type": "RPG.GameCore.TargetAlias",
@@ -950,11 +946,6 @@
             "Alias": "Caster"
           },
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_InvisibleMonster_DepthMask.prefab"
-        },
-        {
-          "$type": "RPG.GameCore.SetNoShadowCaster",
-          "UseAllRenderer": true,
-          "IsNoShadow": false
         },
         {
           "$type": "RPG.GameCore.SetCharacterStealthState",

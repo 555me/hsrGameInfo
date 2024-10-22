@@ -1,11 +1,20 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "NPC",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10101_F10101001_G15",
   "SaveType": "Reset",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -50,6 +59,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -89,6 +100,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC2",
       "RotY": 180,
@@ -134,6 +147,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC3",
       "RotY": 45,
@@ -172,6 +187,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC4",
       "RotY": 47.6949,
@@ -232,6 +249,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC5",
       "RotY": 326.2941,
@@ -265,6 +284,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC6",
       "RotY": 90,
@@ -317,6 +338,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC8",
       "RotY": 225.1826,
@@ -364,6 +387,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC10",
       "ID": 400010,
@@ -401,6 +426,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC12",
       "RotY": 101.9656,
@@ -437,6 +464,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC13",
       "RotY": 224.2004,
@@ -485,6 +514,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC14",
       "RotY": 269.1928,
@@ -520,6 +551,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC16",
       "RotY": 180,
@@ -549,6 +582,8 @@
       "DefaultIdleFreeStyleMotionID": 100020321,
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC7",
       "RotY": 264.9811,
@@ -560,6 +595,9 @@
   ],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

@@ -18,6 +18,14 @@
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
   "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Interactable",
+        "TagHash": 597667137
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -40,6 +48,7 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -48,10 +57,13 @@
         "PackList": []
       },
       "InteractIconType": "CheckIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": -347318505
       },
-      "TriggerValidGuest": {},
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -69,5 +81,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

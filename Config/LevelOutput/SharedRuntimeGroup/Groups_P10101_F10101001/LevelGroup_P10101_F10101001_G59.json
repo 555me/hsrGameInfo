@@ -1,15 +1,27 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "PrestigeShop",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10101_F10101001_G59",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Shop",
+        "TagHash": -1454131895
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
     {
       "PropID": 101022,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Radius": 2,
         "DimX": 1,
@@ -19,7 +31,9 @@
       },
       "CampID": 4,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "MappingInfoID": 2224,
       "DialogueGroups": [
         101030001
@@ -28,6 +42,13 @@
       "ServerInteractVerificationIDList": [
         10
       ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "Prop1",
       "RotY": 269.7296,
       "ID": 300001,
@@ -38,6 +59,7 @@
     {
       "PropID": 101022,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Radius": 2,
         "DimX": 1,
@@ -47,7 +69,9 @@
       },
       "CampID": 4,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "MappingInfoID": 2226,
       "DialogueGroups": [
         999991201
@@ -56,6 +80,9 @@
       "ServerInteractVerificationIDList": [
         10
       ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop2",
       "RotY": 239.8898,
       "ID": 300002,
@@ -66,6 +93,7 @@
     {
       "PropID": 101022,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Radius": 2,
         "DimX": 1,
@@ -75,7 +103,9 @@
       },
       "CampID": 4,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "MappingInfoID": 2225,
       "DialogueGroups": [
         999991201
@@ -84,6 +114,9 @@
       "ServerInteractVerificationIDList": [
         10
       ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop3",
       "RotY": 269.7296,
       "ID": 300003,
@@ -98,5 +131,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

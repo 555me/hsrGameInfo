@@ -21,7 +21,14 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
-  "TagContainer": {},
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Gameplay",
+        "TagHash": -141571921
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Born01",
@@ -208,7 +215,6 @@
   "PropList": [
     {
       "PropID": 103050,
-      "InitLevelGraph": "Config/Level/DesignerBackup/ShrinkCE/Prop_ShrinkMoveGate_Hint.json",
       "ValueSource": {
         "Values": [
           {
@@ -238,9 +244,11 @@
         }
       },
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideTriggerValidGuestConfig": true,
       "TriggerValidGuest": {
         "Teammember": false,
@@ -259,7 +267,6 @@
     },
     {
       "PropID": 103050,
-      "InitLevelGraph": "Config/Level/DesignerBackup/ShrinkCE/Prop_ShrinkMoveGate_Hint.json",
       "ValueSource": {
         "Values": [
           {
@@ -296,9 +303,11 @@
         }
       },
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideTriggerValidGuestConfig": true,
       "TriggerValidGuest": {
         "Teammember": false,
@@ -316,7 +325,6 @@
     },
     {
       "PropID": 103050,
-      "InitLevelGraph": "Config/Level/DesignerBackup/ShrinkCE/Prop_ShrinkMoveGate_Hint.json",
       "ValueSource": {
         "Values": [
           {
@@ -353,9 +361,11 @@
         }
       },
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideTriggerValidGuestConfig": true,
       "TriggerValidGuest": {
         "Teammember": false,
@@ -374,7 +384,6 @@
     },
     {
       "PropID": 103050,
-      "InitLevelGraph": "Config/Level/DesignerBackup/ShrinkCE/Prop_ShrinkMoveGate_Hint.json",
       "ValueSource": {
         "Values": [
           {
@@ -411,9 +420,11 @@
         }
       },
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideTriggerValidGuestConfig": true,
       "TriggerValidGuest": {
         "Teammember": false,
@@ -432,7 +443,6 @@
     },
     {
       "PropID": 103050,
-      "InitLevelGraph": "Config/Level/DesignerBackup/ShrinkCE/Prop_ShrinkMoveGate_Hint.json",
       "ValueSource": {
         "Values": [
           {
@@ -469,9 +479,11 @@
         }
       },
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideTriggerValidGuestConfig": true,
       "TriggerValidGuest": {
         "Teammember": false,
@@ -490,7 +502,6 @@
     },
     {
       "PropID": 103050,
-      "InitLevelGraph": "Config/Level/DesignerBackup/ShrinkCE/Prop_ShrinkMoveGate_Hint.json",
       "ValueSource": {
         "Values": [
           {
@@ -527,9 +538,11 @@
         }
       },
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideTriggerValidGuestConfig": true,
       "TriggerValidGuest": {
         "Teammember": false,
@@ -548,7 +561,6 @@
     },
     {
       "PropID": 103050,
-      "InitLevelGraph": "Config/Level/DesignerBackup/ShrinkCE/Prop_ShrinkMoveGate_Hint.json",
       "ValueSource": {
         "Values": [
           {
@@ -585,9 +597,11 @@
         }
       },
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideTriggerValidGuestConfig": true,
       "TriggerValidGuest": {
         "Teammember": false,
@@ -605,7 +619,6 @@
     },
     {
       "PropID": 103050,
-      "InitLevelGraph": "Config/Level/DesignerBackup/ShrinkCE/Prop_ShrinkMoveGate_Hint.json",
       "ValueSource": {
         "Values": [
           {
@@ -642,9 +655,11 @@
         }
       },
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideTriggerValidGuestConfig": true,
       "TriggerValidGuest": {
         "Teammember": false,
@@ -663,7 +678,6 @@
     },
     {
       "PropID": 103087,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_DropVase_01.json",
       "ValueSource": {
         "Values": [
           {
@@ -691,10 +705,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -713,7 +728,6 @@
         "Z": 0.82384
       },
       "PropID": 103043,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_HideBox_01.json",
       "ValueSource": {
         "Values": [
           {
@@ -740,10 +754,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -762,7 +777,6 @@
         "Z": 0.83528
       },
       "PropID": 103043,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_HideBox_01.json",
       "ValueSource": {
         "Values": [
           {
@@ -789,10 +803,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -811,7 +826,6 @@
         "Z": 0.83528
       },
       "PropID": 103043,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_HideBox_01.json",
       "ValueSource": {
         "Values": [
           {
@@ -838,10 +852,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -860,7 +875,6 @@
         "Z": 0.83528
       },
       "PropID": 103043,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_HideBox_01.json",
       "ValueSource": {
         "Values": [
           {
@@ -887,10 +901,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -923,10 +938,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -979,5 +995,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

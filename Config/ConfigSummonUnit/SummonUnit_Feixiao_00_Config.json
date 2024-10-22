@@ -49,9 +49,6 @@
             "Value": 8
           }
         },
-        "UseVerticalBound": true,
-        "UpperBound": 3.5,
-        "LowerBound": -1,
         "NeedNavmeshCheck": true,
         "TargetTypes": [
           "NPCMonster"

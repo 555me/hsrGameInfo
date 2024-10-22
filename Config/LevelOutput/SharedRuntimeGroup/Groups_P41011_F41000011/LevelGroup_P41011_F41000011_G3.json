@@ -4,6 +4,7 @@
   "AreaAnchorName": "LevelArea_P41011_F41000011_G3",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -62,6 +63,7 @@
       },
       "State": "BridgeState1",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [
         180,
         270,
@@ -70,19 +72,19 @@
       ],
       "StateConfigs": [
         {
-          "State": "BridgeState1",
-          "Rotation": 180
+          "State": "BridgeState1"
         },
         {
           "State": "BridgeState2",
-          "Rotation": 270
+          "Rotation": 90
         },
         {
-          "State": "BridgeState3"
+          "State": "BridgeState3",
+          "Rotation": 180
         },
         {
           "State": "BridgeState4",
-          "Rotation": 90
+          "Rotation": 270
         }
       ],
       "DialogueGroups": [],
@@ -91,6 +93,13 @@
       "StageObjectCapture": {
         "BlockAlias": "Chap01_CloseView_MAZ_M301_MazePart07",
         "PrefabAlias": "Chap01_Grd_WheelGear_01_part01"
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
       },
       "Name": "Prop1",
       "RotY": 180,
@@ -107,5 +116,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

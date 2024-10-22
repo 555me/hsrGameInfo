@@ -16,6 +16,14 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialMonster",
+        "TagHash": -1267591894
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [
     {
@@ -31,6 +39,7 @@
         ],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
       "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
@@ -86,5 +95,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

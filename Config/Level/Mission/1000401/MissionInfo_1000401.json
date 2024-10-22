@@ -15,15 +15,27 @@
       "LevelPlaneID": 10001,
       "LevelFloorID": 10001001,
       "TakeType": "Auto",
+      "TakeParamIntList": [
+        1000401
+      ],
       "FinishType": "Talk",
       "ParamType": "Equal",
       "ParamStr1": "Mission_100040121",
+      "ParamIntList": [],
       "ParamItemList": [],
+      "FinishActionList": [],
       "Progress": 1,
+      "CustomValueList": [],
+      "CustomValueReward": [],
+      "GroupIDList": [],
+      "RequiredNPCSeriesIDList": [],
       "WayPointType": "NPC",
+      "GotoParam": [],
       "WayPointFloorID": 10001001,
       "WayPointGroupID": 12,
-      "WayPointEntityID": 400002
+      "WayPointEntityID": 400002,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 100040122,
@@ -32,13 +44,25 @@
       "LevelPlaneID": 10001,
       "LevelFloorID": 10001001,
       "TakeType": "Auto",
+      "TakeParamIntList": [
+        1000401
+      ],
       "FinishType": "Talk",
       "ParamType": "Equal",
       "ParamStr1": "Mission_100040122",
+      "ParamIntList": [],
       "ParamItemList": [],
+      "FinishActionList": [],
       "Progress": 1,
+      "CustomValueList": [],
+      "CustomValueReward": [],
+      "GroupIDList": [],
+      "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 10001001
+      "GotoParam": [],
+      "WayPointFloorID": 10001001,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 100040124,
@@ -53,12 +77,21 @@
       "FinishType": "MessagePerformSectionFinish",
       "ParamType": "Equal",
       "ParamInt1": 1000200,
+      "ParamIntList": [],
       "ParamItemList": [],
+      "FinishActionList": [],
       "Progress": 1,
+      "CustomValueList": [],
+      "CustomValueReward": [],
+      "GroupIDList": [],
+      "RequiredNPCSeriesIDList": [],
       "WayPointType": "NPC",
+      "GotoParam": [],
       "WayPointFloorID": 10001001,
       "WayPointGroupID": 12,
-      "WayPointEntityID": 400002
+      "WayPointEntityID": 400002,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 100040125,
@@ -73,10 +106,19 @@
       "FinishType": "Talk",
       "ParamType": "Equal",
       "ParamStr1": "Mission_100040125",
+      "ParamIntList": [],
       "ParamItemList": [],
+      "FinishActionList": [],
       "Progress": 1,
+      "CustomValueList": [],
+      "CustomValueReward": [],
+      "GroupIDList": [],
+      "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 10001001
+      "GotoParam": [],
+      "WayPointFloorID": 10001001,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 100060101,
@@ -91,6 +133,7 @@
       "FinishType": "Talk",
       "ParamType": "Equal",
       "ParamStr1": "Mission_100060101",
+      "ParamIntList": [],
       "ParamItemList": [],
       "FinishActionList": [
         {
@@ -99,13 +142,30 @@
             140037,
             1
           ]
+        },
+        {
+          "FinishActionType": "SetFloorSavedValue",
+          "FinishActionPara": [],
+          "FinishActionParaString": [
+            "20001",
+            "20001001",
+            "SceneStateByMainMission",
+            "1"
+          ]
         }
       ],
       "Progress": 1,
+      "CustomValueList": [],
+      "CustomValueReward": [],
+      "GroupIDList": [],
+      "RequiredNPCSeriesIDList": [],
       "WayPointType": "NPC",
+      "GotoParam": [],
       "WayPointFloorID": 80112001,
       "WayPointGroupID": 2,
-      "WayPointEntityID": 400001
+      "WayPointEntityID": 400001,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 100060102,
@@ -120,12 +180,21 @@
       "ParamType": "Equal",
       "ParamInt1": 80112,
       "ParamInt2": 80112001,
+      "ParamIntList": [],
       "ParamItemList": [],
+      "FinishActionList": [],
       "Progress": 1,
+      "CustomValueList": [],
+      "CustomValueReward": [],
+      "GroupIDList": [],
+      "RequiredNPCSeriesIDList": [],
       "WayPointType": "Prop",
+      "GotoParam": [],
       "WayPointFloorID": 10001001,
       "WayPointGroupID": 1,
-      "WayPointEntityID": 300002
+      "WayPointEntityID": 300002,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 100060111,
@@ -140,12 +209,21 @@
       "ParamType": "Equal",
       "ParamInt1": 14,
       "ParamInt2": 300002,
+      "ParamIntList": [],
       "ParamItemList": [],
+      "FinishActionList": [],
       "Progress": 1,
+      "CustomValueList": [],
+      "CustomValueReward": [],
+      "GroupIDList": [],
+      "RequiredNPCSeriesIDList": [],
       "WayPointType": "NPC",
+      "GotoParam": [],
       "WayPointFloorID": 80112001,
       "WayPointGroupID": 2,
-      "WayPointEntityID": 400001
+      "WayPointEntityID": 400001,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 100060112,

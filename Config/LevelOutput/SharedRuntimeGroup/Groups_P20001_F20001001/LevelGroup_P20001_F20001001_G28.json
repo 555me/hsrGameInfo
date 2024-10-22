@@ -2,15 +2,28 @@
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "MonsterEscape",
   "AreaAnchorName": "LevelArea_P20001_F20001001_G28",
-  "LoadCondition": {
+  "SavedValueCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1000401
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialMonster",
+        "TagHash": -1267591894
       }
     ]
   },
-  "LoadSide": "Server",
   "AnchorList": [],
   "MonsterList": [
     {
@@ -19,6 +32,8 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 2,
@@ -28,6 +43,10 @@
       "BoardShowList": [
         2
       ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "Monster1",
       "RotY": 180,
       "ID": 200001,
@@ -43,5 +62,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

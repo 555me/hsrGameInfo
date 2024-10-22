@@ -25,25 +25,42 @@
     ],
     "Operation": "Or"
   },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
     {
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Shape": "Box",
         "Radius": 1,
         "DimX": 10,
         "DimY": 6,
-        "DimZ": 10
+        "DimZ": 10,
+        "PointList": []
       },
       "CampID": 4,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop1",
       "ID": 300001,
       "PosX": 3.24,
@@ -69,6 +86,10 @@
       },
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110000,
+      "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC1",
       "RotY": 326.5,
       "ID": 400001,
@@ -89,6 +110,10 @@
       },
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110000,
+      "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC2",
       "RotY": 93.61829,
       "ID": 400002,
@@ -110,6 +135,10 @@
       },
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110000,
+      "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC3",
       "RotY": 118.1428,
       "ID": 400003,
@@ -120,5 +149,10 @@
     }
   ],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

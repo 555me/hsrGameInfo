@@ -1,6 +1,7 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "NPC_QA",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P20001_F20001001_G51",
   "SaveType": "Reset",
   "LoadCondition": {
@@ -18,7 +19,16 @@
       }
     ]
   },
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -60,6 +70,9 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC1",
       "RotY": 280.2279,
       "ID": 400001,
@@ -69,5 +82,10 @@
     }
   ],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

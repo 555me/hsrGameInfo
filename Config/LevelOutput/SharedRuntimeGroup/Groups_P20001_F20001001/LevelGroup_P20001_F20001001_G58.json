@@ -45,7 +45,16 @@
       }
     ]
   },
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -53,6 +62,7 @@
       "PropID": 100,
       "LoadOnInitial": false,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Shape": "Box",
         "Radius": 1,
@@ -68,12 +78,17 @@
       },
       "CampID": 4,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [
         800010202
       ],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop_Act_Online_01",
       "ID": 300001,
       "PosX": -24.503,
@@ -110,6 +125,7 @@
       "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G58/DialogueMain_F20001001_G58_N400001.json",
+        "PackList": [],
         "EnableCondition": {
           "Conditions": [
             {
@@ -119,6 +135,9 @@
           ]
         }
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "Act_Online_01_Host",
       "RotY": 19.65458,
       "ID": 400001,
@@ -172,6 +191,9 @@
           "Operation": "Or"
         }
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "Act_Online_02_Host",
       "RotY": 19.65458,
       "ID": 400002,
@@ -181,5 +203,10 @@
     }
   ],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

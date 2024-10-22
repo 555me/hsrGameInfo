@@ -17,6 +17,14 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.Monster",
+        "TagHash": -1058465803
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [
     {
@@ -25,6 +33,7 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
       "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
@@ -37,6 +46,9 @@
       ],
       "IsNeedFade": true,
       "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "SneakMonster01",
       "RotY": 119.3389,
       "ID": 200001,
@@ -134,5 +146,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

@@ -11,8 +11,6 @@
             "Value": 12
           }
         },
-        "UseVerticalBound": true,
-        "NeedNavmeshCheck": true,
         "TargetTypes": [
           "NPCMonster"
         ],
@@ -26,7 +24,6 @@
             "Value": 4
           }
         },
-        "UseVerticalBound": true,
         "TargetTypes": [
           "NPCMonster"
         ],

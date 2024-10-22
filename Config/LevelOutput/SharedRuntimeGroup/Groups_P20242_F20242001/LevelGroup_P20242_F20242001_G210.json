@@ -499,6 +499,7 @@
       "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
+      "CameraConfig": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -518,7 +519,7 @@
       "DefaultLookAtMode": "LookTarget",
       "DefaultLookAtTargetInfo": {
         "GroupID": 210,
-        "InstanceID": 400005,
+        "InstanceID": 400006,
         "LookAtAttachPoint": "Head"
       },
       "BoardShowList": [
@@ -550,7 +551,7 @@
       "DefaultLookAtMode": "LookTarget",
       "DefaultLookAtTargetInfo": {
         "GroupID": 210,
-        "InstanceID": 400006,
+        "InstanceID": 400005,
         "LookAtAttachPoint": "Head"
       },
       "BoardShowList": [

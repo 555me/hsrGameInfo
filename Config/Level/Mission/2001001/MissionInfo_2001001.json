@@ -370,6 +370,8 @@
       "FinishType": "Talk",
       "ParamType": "Equal",
       "ParamStr1": "Mission_200100114",
+      "ParamIntList": [],
+      "ParamItemList": [],
       "FinishActionList": [],
       "Progress": 1,
       "CustomValueList": [],
@@ -379,9 +381,12 @@
       ],
       "RequiredNPCSeriesIDList": [],
       "WayPointType": "Prop",
+      "GotoParam": [],
       "WayPointFloorID": 20004001,
       "WayPointGroupID": 11,
-      "WayPointEntityID": 300001
+      "WayPointEntityID": 300001,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 200100115,
@@ -598,6 +603,8 @@
       "FinishType": "Talk",
       "ParamType": "Equal",
       "ParamStr1": "Mission_200100122",
+      "ParamIntList": [],
+      "ParamItemList": [],
       "FinishActionList": [],
       "Progress": 1,
       "CustomValueList": [],
@@ -607,11 +614,14 @@
       ],
       "RequiredNPCSeriesIDList": [],
       "WayPointType": "NPC",
+      "GotoParam": [],
       "WayPointFloorID": 20004001,
       "WayPointGroupID": 10,
       "WayPointEntityID": 400001,
       "WayPointShowRangeMin": 50,
-      "MapWaypointRange": 30
+      "MapWaypointRange": 30,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 200100123,
@@ -860,7 +870,20 @@
       "FinishType": "Talk",
       "ParamType": "Equal",
       "ParamStr1": "Mission_200100132",
-      "FinishActionList": [],
+      "ParamIntList": [],
+      "ParamItemList": [],
+      "FinishActionList": [
+        {
+          "FinishActionType": "SetFloorSavedValue",
+          "FinishActionPara": [],
+          "FinishActionParaString": [
+            "20004",
+            "20004001",
+            "FSV_LoadDoor_Ruanmei",
+            "1"
+          ]
+        }
+      ],
       "Progress": 1,
       "CustomValueList": [],
       "CustomValueReward": [],
@@ -869,9 +892,12 @@
       ],
       "RequiredNPCSeriesIDList": [],
       "WayPointType": "Prop",
+      "GotoParam": [],
       "WayPointFloorID": 20004001,
       "WayPointGroupID": 20,
-      "WayPointEntityID": 300001
+      "WayPointEntityID": 300001,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 200100133,

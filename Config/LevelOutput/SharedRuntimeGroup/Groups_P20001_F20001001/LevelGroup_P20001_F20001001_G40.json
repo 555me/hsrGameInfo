@@ -4,6 +4,16 @@
   "AreaAnchorName": "LevelArea_P20001_F20001001_G40",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Audio.Sound",
+        "TagHash": 1757672304
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -14,7 +24,8 @@
         "Radius": 1,
         "DimX": 10,
         "DimY": 10,
-        "DimZ": 76
+        "DimZ": 76,
+        "PointList": []
       },
       "OnEnterAudioState": [
         {
@@ -38,7 +49,8 @@
         "Radius": 1,
         "DimX": 400,
         "DimY": 120,
-        "DimZ": 71
+        "DimZ": 71,
+        "PointList": []
       },
       "Name": "District2",
       "ID": 2,
@@ -51,7 +63,8 @@
         "Radius": 1,
         "DimX": 40,
         "DimY": 20,
-        "DimZ": 54
+        "DimZ": 54,
+        "PointList": []
       },
       "OnEnterAudioState": [
         {
@@ -76,7 +89,8 @@
         "Radius": 1,
         "DimX": 61,
         "DimY": 5,
-        "DimZ": 77
+        "DimZ": 77,
+        "PointList": []
       },
       "OnEnterAudioState": [
         {
@@ -101,7 +115,8 @@
         "Radius": 1,
         "DimX": 40,
         "DimY": 10,
-        "DimZ": 34
+        "DimZ": 34,
+        "PointList": []
       },
       "OnEnterAudioState": [
         {
@@ -127,7 +142,8 @@
         "Radius": 1,
         "DimX": 40,
         "DimY": 10,
-        "DimZ": 34
+        "DimZ": 34,
+        "PointList": []
       },
       "OnEnterAreaSound": {
         "PlayEventName": "Ev_sfx_common_monitoring_room_computer_large",
@@ -181,7 +197,8 @@
         "Radius": 1,
         "DimX": 40,
         "DimY": 10,
-        "DimZ": 34
+        "DimZ": 34,
+        "PointList": []
       },
       "OnEnterAreaSound": {
         "PlayEventName": "Ev_sfx_common_monitoring_room_computer_small",
@@ -269,7 +286,8 @@
         "Radius": 1,
         "DimX": 40,
         "DimY": 10,
-        "DimZ": 34
+        "DimZ": 34,
+        "PointList": []
       },
       "OnEnterAudioState": [
         {
@@ -295,7 +313,8 @@
         "Radius": 1,
         "DimX": 40,
         "DimY": 10,
-        "DimZ": 34
+        "DimZ": 34,
+        "PointList": []
       },
       "OnEnterAreaSound": {
         "PlayEventName": "Ev_sfx_common_monitoring_room_computer_large",
@@ -349,7 +368,8 @@
         "Radius": 1,
         "DimX": 40,
         "DimY": 10,
-        "DimZ": 34
+        "DimZ": 34,
+        "PointList": []
       },
       "OnEnterAreaSound": {
         "PlayEventName": "Ev_sfx_common_monitoring_room_computer_small",
@@ -437,7 +457,8 @@
         "Radius": 1,
         "DimX": 40,
         "DimY": 20,
-        "DimZ": 56
+        "DimZ": 56,
+        "PointList": []
       },
       "OnEnterAudioState": [
         {
@@ -462,7 +483,8 @@
         "Radius": 1,
         "DimX": 30,
         "DimY": 10,
-        "DimZ": 30
+        "DimZ": 30,
+        "PointList": []
       },
       "OnEnterAudioState": [
         {
@@ -487,7 +509,8 @@
         "Radius": 1,
         "DimX": 25,
         "DimY": 10,
-        "DimZ": 25
+        "DimZ": 25,
+        "PointList": []
       },
       "OnEnterAudioState": [
         {
@@ -513,7 +536,8 @@
         "Radius": 1,
         "DimX": 30,
         "DimY": 10,
-        "DimZ": 30
+        "DimZ": 30,
+        "PointList": []
       },
       "OnEnterAudioState": [
         {
@@ -538,7 +562,8 @@
         "Radius": 10,
         "DimX": 20,
         "DimY": 10,
-        "DimZ": 20
+        "DimZ": 20,
+        "PointList": []
       },
       "OnEnterRTPC": [
         {
@@ -580,5 +605,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

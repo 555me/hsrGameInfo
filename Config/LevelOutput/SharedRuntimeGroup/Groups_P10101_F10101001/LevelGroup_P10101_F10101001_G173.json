@@ -1,6 +1,7 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
-  "GroupName": "MainMission0_",
+  "GroupName": "MainMission0_MainMission0_",
+  "Category": "Mission",
   "AreaAnchorName": "LevelArea_P10101_F10101001_G173",
   "SaveType": "Reset",
   "LoadCondition": {
@@ -17,6 +18,14 @@
   },
   "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -35,9 +44,13 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop1",
       "ID": 300001,
       "PosX": 17.81,
@@ -74,6 +87,9 @@
         "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101001_G173/DialogueMain_F10101001_G173_N400001.json",
         "PackList": []
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
         "EntitySpawnConfig": {}
@@ -88,5 +104,9 @@
   ],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

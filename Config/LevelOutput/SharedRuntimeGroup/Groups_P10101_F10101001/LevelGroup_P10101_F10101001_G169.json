@@ -1,6 +1,7 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "NPC",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10101_F10101001_G169",
   "SaveType": "Reset",
   "UnloadCondition": {
@@ -16,6 +17,16 @@
     "Operation": "Or"
   },
   "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -46,6 +57,7 @@
       "DefaultIdleFreeStyleMotionID": 100020000,
       "OverrideSeriesID": 1120701,
       "BornType": "Permanent",
+      "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P10101/F10101001_G169/DialogueMain_F10101001_G169_N400001.json",
         "PackList": [
@@ -55,6 +67,9 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC1",
       "RotY": 63.54863,
       "ID": 400001,
@@ -64,5 +79,10 @@
     }
   ],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

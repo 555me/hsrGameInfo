@@ -1,12 +1,20 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Crowd",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10305_F10305001_G29",
   "SaveType": "Reset",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
-  "TagContainer": {},
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Crowd",
+        "TagHash": -581694062
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -302,20 +310,21 @@
           "LookAtAnchor": {},
           "LookAtPosition": {},
           "LocalPosition": {
-            "X": -0.361,
-            "Y": 0,
-            "Z": -1.59
+            "X": -0.424999,
+            "Y": -0.057,
+            "Z": -1.554993
           },
-          "LocalRotationY": 44.83311,
+          "LocalRotationY": 52.36525,
           "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100040298
+          "DefaultIdleFreeStyleMotionID": 100040298,
+          "NearbyAnimConfig": {}
         }
       ],
       "NewMunicipalChatCrowdInfos": [],
       "CenterPos": {
-        "X": -0.361,
-        "Y": 0,
-        "Z": -1.59
+        "X": -0.424999,
+        "Y": -0.057,
+        "Z": -1.554993
       },
       "Name": "Crowd5",
       "ID": 5,
@@ -940,6 +949,9 @@
     }
   ],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

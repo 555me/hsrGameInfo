@@ -39,6 +39,7 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
       "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
@@ -51,6 +52,9 @@
       ],
       "IsNeedFade": true,
       "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "SneakMonster01",
       "RotY": 40,
       "ID": 200010,
@@ -64,6 +68,7 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
       "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
@@ -76,6 +81,9 @@
       ],
       "IsNeedFade": true,
       "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "SneakMonster01",
       "ID": 200008,
       "PosX": -62.15,
@@ -88,6 +96,7 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
       "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
@@ -100,6 +109,9 @@
       ],
       "IsNeedFade": true,
       "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "SneakMonster01",
       "RotY": 252.0063,
       "ID": 200006,
@@ -113,6 +125,7 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
       "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
@@ -125,6 +138,9 @@
       ],
       "IsNeedFade": true,
       "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "SneakMonster01",
       "RotY": 134.6955,
       "ID": 200005,
@@ -137,16 +153,18 @@
     {
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/Raid/44201_Raid/Maze_InvisibleMonster_ClientBuff.json",
+      "InitLevelGraph": "Config/Level/Raid/44201_Raid/Maze_InvisibleMonster_SneakEffectBuff.json",
       "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -186,5 +204,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

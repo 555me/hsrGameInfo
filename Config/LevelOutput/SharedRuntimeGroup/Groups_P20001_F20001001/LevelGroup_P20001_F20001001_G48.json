@@ -2,6 +2,7 @@
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "sub3000101",
   "AreaAnchorName": "LevelArea_P20001_F20001001_G48",
+  "SaveType": "Reset",
   "LoadCondition": {
     "Conditions": [
       {
@@ -25,6 +26,16 @@
       }
     ],
     "Operation": "Or"
+  },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
   },
   "AnchorList": [
     {
@@ -50,10 +61,18 @@
       "PropID": 111,
       "LoadOnInitial": false,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop1",
       "ID": 300001,
       "PosX": -33.52,
@@ -64,16 +83,25 @@
       "PropID": 100,
       "LoadOnInitial": false,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Radius": 2,
         "DimX": 1,
         "DimY": 1,
-        "DimZ": 1
+        "DimZ": 1,
+        "PointList": []
       },
       "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop2",
       "ID": 300002,
       "PosX": -33.52,
@@ -92,7 +120,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
       "DefaultLookAtMode": "Closed",
-      "DefaultLookAtTargetInfo": {},
       "BoardShowList": [
         1,
         64
@@ -100,6 +127,10 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020231,
       "BornType": "Permanent",
+      "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC1",
       "RotY": 219.3724,
       "ID": 400001,
@@ -113,11 +144,14 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
       "DefaultLookAtMode": "Closed",
-      "DefaultLookAtTargetInfo": {},
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010222,
       "BornType": "Permanent",
+      "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC2",
       "RotY": 41.34238,
       "ID": 400002,
@@ -131,7 +165,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "DefaultLookAtTargetInfo": {},
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -1836469546
@@ -139,6 +172,10 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380020000,
       "BornType": "Permanent",
+      "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC3",
       "RotY": 305.9825,
       "ID": 400003,
@@ -152,11 +189,14 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Talk03",
       "DefaultLookAtMode": "Closed",
-      "DefaultLookAtTargetInfo": {},
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020202,
       "BornType": "Permanent",
+      "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC4",
       "RotY": 339.673,
       "ID": 400004,
@@ -166,5 +206,10 @@
     }
   ],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

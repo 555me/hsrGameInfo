@@ -4,6 +4,16 @@
   "AreaAnchorName": "LevelArea_P20101_F20101001_G56",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialEntrance",
+        "TagHash": -1446353026
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -51,10 +61,13 @@
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 5,
+          "PointList": [],
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "AnchorGroupID": 56,
       "AnchorID": 1,
       "MappingInfoID": 1001,
@@ -76,6 +89,9 @@
           "IconID": 61
         }
       ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop1",
       "RotY": 120,
       "ID": 300001,
@@ -90,5 +106,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

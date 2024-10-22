@@ -2,6 +2,7 @@
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Safe_NPC",
   "AreaAnchorName": "LevelArea_P20001_F20001001_G10",
+  "SaveType": "Reset",
   "LoadCondition": {
     "Conditions": [
       {
@@ -19,6 +20,16 @@
     ],
     "DelayToLevelReload": true
   },
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -33,7 +44,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "DefaultLookAtTargetInfo": {},
       "BoardShowList": [
         1,
         4,
@@ -43,6 +53,10 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
       "BornType": "Permanent",
+      "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC1",
       "RotY": 148.7245,
       "ID": 400001,
@@ -59,7 +73,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Distress01Loop",
       "DefaultLookAtMode": "Closed",
-      "DefaultLookAtTargetInfo": {},
       "BoardShowList": [
         1,
         4,
@@ -69,6 +82,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010291,
       "BornType": "Permanent",
+      "InitialHiddenNodeList": [],
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P20001/F20001001_G10/DialogueMain_F20001001_G10_N400002.json",
         "PackList": [
@@ -91,6 +105,9 @@
           "Operation": "Or"
         }
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
+      "CameraCenterEntityList": [],
       "Name": "NPC2",
       "RotY": 7.496386,
       "ID": 400002,
@@ -100,5 +117,10 @@
     }
   ],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

@@ -3,6 +3,16 @@
   "GroupName": "MainMissionMonster",
   "AreaAnchorName": "LevelArea_P20001_F20001001_G9",
   "LoadSide": "Server",
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [
     {
@@ -12,7 +22,9 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
       "LoadOnInitial": false,
+      "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
         "GroupID": 2,
@@ -23,6 +35,10 @@
       "BoardShowList": [
         2
       ],
+      "TagList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "Monster4",
       "RotY": 180,
       "ID": 200004,
@@ -38,5 +54,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

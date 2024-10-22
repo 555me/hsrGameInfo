@@ -2,15 +2,28 @@
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Teleport",
   "AreaAnchorName": "LevelArea_P20001_F20001001_G18",
-  "LoadCondition": {
+  "SavedValueCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1000401
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
+      }
+    ],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.AnchorPoint",
+        "TagHash": -1743222658
       }
     ]
   },
-  "LoadSide": "Server",
   "AnchorList": [
     {
       "Name": "checkpoint_1",
@@ -34,13 +47,15 @@
       "PropID": 101,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 2.5,
         "Offset": {
           "X": 0,
           "Y": 1,
           "Z": 0
-        }
+        },
+        "PointList": []
       },
       "CampID": 4,
       "State": "CheckPointEnable",
@@ -52,16 +67,26 @@
             "Y": 1,
             "Z": 0
           },
+          "PointList": [],
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "AnchorGroupID": 18,
       "AnchorID": 1,
       "MappingInfoID": 2000101,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "Prop1",
       "ID": 300001,
       "PosX": -18.13,
@@ -72,13 +97,15 @@
       "PropID": 101,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
+      "ValueSource": {},
       "Trigger": {
         "Radius": 2.5,
         "Offset": {
           "X": 0,
           "Y": 1,
           "Z": 0
-        }
+        },
+        "PointList": []
       },
       "CampID": 4,
       "State": "CheckPointDisable",
@@ -94,16 +121,26 @@
             "Y": 0,
             "Z": 3
           },
+          "PointList": [],
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "AnchorGroupID": 18,
       "AnchorID": 2,
       "MappingInfoID": 2000102,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "Prop2",
       "ID": 300002,
       "PosX": 21.33,
@@ -117,5 +154,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

@@ -1,12 +1,20 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Crowd_2",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10301_F10301001_G2",
   "SaveType": "Reset",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
-  "TagContainer": {},
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Crowd",
+        "TagHash": -581694062
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -48,10 +56,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -4802,5 +4811,9 @@
     }
   ],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

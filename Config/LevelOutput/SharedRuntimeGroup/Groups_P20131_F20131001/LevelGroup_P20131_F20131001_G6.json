@@ -6,6 +6,7 @@
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "GroupRefreshID": 1,
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [
     {
@@ -86,7 +87,9 @@
         "PointList": []
       },
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -97,6 +100,13 @@
           "Color": "#b74a4a"
         }
       ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "Prop5",
       "RotY": 180,
       "ID": 300005,
@@ -166,6 +176,7 @@
       },
       "State": "BridgeState1",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [
         180,
         270,
@@ -174,19 +185,19 @@
       ],
       "StateConfigs": [
         {
-          "State": "BridgeState1",
-          "Rotation": 180
+          "State": "BridgeState1"
         },
         {
           "State": "BridgeState2",
-          "Rotation": 270
+          "Rotation": 90
         },
         {
-          "State": "BridgeState3"
+          "State": "BridgeState3",
+          "Rotation": 180
         },
         {
           "State": "BridgeState4",
-          "Rotation": 90
+          "Rotation": 270
         }
       ],
       "DialogueGroups": [],
@@ -195,6 +206,13 @@
       "StageObjectCapture": {
         "BlockAlias": "Chap01_CloseView_MAZ_M301_MazePart07",
         "PrefabAlias": "Chap01_Grd_WheelGear_01_part01"
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
       },
       "Name": "Prop6",
       "RotY": 180,
@@ -223,10 +241,15 @@
       },
       "State": "Locked",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "BridgeController01",
       "RotY": 77.5,
       "ID": 300010,
@@ -263,10 +286,15 @@
       },
       "State": "Locked",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "BridgeController02",
       "RotY": 259.4836,
       "ID": 300009,
@@ -293,10 +321,15 @@
         ]
       },
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "BridgeController03",
       "RotY": 251.7,
       "ID": 300035,
@@ -332,10 +365,15 @@
         "PointList": []
       },
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "BridgeController04",
       "RotY": 71.16293,
       "ID": 300001,
@@ -362,10 +400,15 @@
         ]
       },
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop11",
       "ID": 300011,
       "PosX": 0.22,
@@ -391,10 +434,15 @@
         ]
       },
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop26",
       "ID": 300026,
       "PosX": 2.77,
@@ -420,10 +468,15 @@
         ]
       },
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop13",
       "RotY": 180,
       "ID": 300013,
@@ -435,9 +488,12 @@
       "PropID": 301003,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/Chapter01/M301/Maze_Chapter_01_M301_Power_Core.json",
+      "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -445,6 +501,9 @@
         "BlockAlias": "Chap01_CloseView_MAZ_M301_MazePart08",
         "PrefabAlias": "Chap01_Prop_PowerMerge_01"
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop8",
       "ID": 300008,
       "PosX": 0.050011,
@@ -470,7 +529,9 @@
         ]
       },
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -482,6 +543,9 @@
           "Color": "#b74a4a"
         }
       ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop2",
       "RotY": 90,
       "ID": 300002,
@@ -493,9 +557,12 @@
       "RotX": 3E-06,
       "PropID": 301002,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -503,6 +570,9 @@
         "BlockAlias": "P3",
         "PrefabAlias": "PowerMerge0"
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "PowerMerge",
       "ID": 300003,
       "PosY": 0.994,
@@ -535,10 +605,15 @@
       },
       "State": "Locked",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop4",
       "RotY": 180,
       "ID": 300004,
@@ -637,5 +712,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

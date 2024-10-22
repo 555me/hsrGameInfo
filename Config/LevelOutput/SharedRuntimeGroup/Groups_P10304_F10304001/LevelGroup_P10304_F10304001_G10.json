@@ -16,8 +16,8 @@
   "TagContainer": {
     "List": [
       {
-        "Tag": "Group.Level.SceneConfig",
-        "TagHash": 520707853
+        "Tag": "Group.Level.SceneCapture",
+        "TagHash": 612855931
       }
     ]
   },
@@ -31,6 +31,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

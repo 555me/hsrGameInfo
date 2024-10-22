@@ -1,16 +1,17 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Crowd",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10305_F10305001_G173",
   "SaveType": "Reset",
-  "SavedValueCondition": {
+  "AtmosphereCondition": {
     "Conditions": [
       {
+        "$type": "RPG.GameCore.LevelGroupAtmosphereSavedValueCondition",
         "SavedValueName": "FSV_CheckOutCrowd",
         "Value": 1
       }
-    ],
-    "Operation": "And"
+    ]
   },
   "LoadOnInitial": true,
   "RandomInit": {
@@ -130,6 +131,14 @@
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
   "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Crowd",
+        "TagHash": -581694062
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -140,9 +149,11 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -2026,7 +2037,6 @@
           "FeatureID": "Tourist_Low_ChildGirl",
           "UniqueName": "173_40_01",
           "LookAtMode": "Closed",
-          "LookAtTarget": "173_40_02",
           "LookAtAnchor": {},
           "LookAtPosition": {},
           "LocalPosition": {
@@ -2530,6 +2540,9 @@
     }
   ],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

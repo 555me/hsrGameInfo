@@ -45,6 +45,7 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {},
       "Name": "Prop1",
@@ -80,6 +81,7 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {},
       "Name": "Prop2",
@@ -115,6 +117,7 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {},
       "Name": "Prop3",
@@ -163,6 +166,7 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {},
       "Name": "Prop4",
@@ -215,6 +219,7 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {},
       "Name": "Prop5",
@@ -252,8 +257,13 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
       "CameraCenterEntityList": [],
-      "SpawnConfig": {},
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "Prop6",
       "RotY": 65.04292,
       "ID": 300006,
@@ -291,7 +301,7 @@
         ]
       },
       "Trigger": {
-        "Radius": 2,
+        "Radius": 2.5,
         "DimX": 1,
         "DimY": 1,
         "DimZ": 1,
@@ -305,13 +315,18 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
       "CameraCenterEntityList": [],
-      "SpawnConfig": {},
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "Prop7",
       "ID": 300007,
-      "PosX": -76.865,
+      "PosX": -76.17,
       "PosY": 53.26,
-      "PosZ": -20.036
+      "PosZ": -20.015
     },
     {
       "PropID": 100,
@@ -350,6 +365,7 @@
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {},
       "Name": "Prop8",
@@ -398,6 +414,8 @@
       "DefaultAnimationType": "IdleState",
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "Name": "NPC1",
       "RotY": 159.5106,
@@ -409,6 +427,9 @@
   ],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

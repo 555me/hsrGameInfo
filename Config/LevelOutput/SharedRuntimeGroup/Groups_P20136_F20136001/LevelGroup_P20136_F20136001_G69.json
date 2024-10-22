@@ -7,7 +7,9 @@
   "SaveType": "Reset",
   "OwnerMainMissionID": 8025105,
   "ValueSource": {},
-  "ConflictIDList": [],
+  "ConflictIDList": [
+    13
+  ],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
   "TagContainer": {
@@ -20,7 +22,30 @@
   },
   "AnchorList": [],
   "MonsterList": [],
-  "PropList": [],
+  "PropList": [
+    {
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
+      "BridgeStateRotations": [],
+      "StateConfigs": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "Name": "Prop1",
+      "ID": 300001,
+      "PosZ": 20
+    }
+  ],
   "DistrictList": [],
   "WaypointList": [],
   "PathwayList": [],

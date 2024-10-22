@@ -3,13 +3,14 @@
   "GroupName": "DefaultChallenge",
   "LevelGraph": "Config/Level/Maze/MazeGroup/Maze_Group_OpenTreasure_WhenMonsterDie.json",
   "AreaAnchorName": "LevelArea_P20101_F20101001_G7",
-  "LoadCondition": {
+  "SavedValueCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1010101
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
       }
-    ]
+    ],
+    "Operation": "And"
   },
   "LoadSide": "Server",
   "ValueSource": {
@@ -22,7 +23,16 @@
     ]
   },
   "ConflictIDList": [],
-  "TagContainer": {},
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.ChallengeChest",
+        "TagHash": -1916819837
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [
     {
@@ -81,10 +91,14 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "ChestID": 20101631,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop1",
       "RotY": 225,
       "ID": 300001,
@@ -109,9 +123,13 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop2",
       "ID": 300002
     },
@@ -134,6 +152,7 @@
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "MappingInfoID": 10029,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -143,6 +162,9 @@
           "IconID": 87
         }
       ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop3",
       "RotY": 225,
       "ID": 300003,
@@ -191,5 +213,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

@@ -320,7 +320,8 @@
               "RogueExplore",
               "ChessRogue",
               "RelicRogue",
-              "TournRogue"
+              "TournRogue",
+              "MagicRogue"
             ]
           },
           "SuccessTaskList": [

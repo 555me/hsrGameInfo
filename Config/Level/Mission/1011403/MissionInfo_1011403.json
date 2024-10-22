@@ -20,8 +20,28 @@
       "FinishType": "Talk",
       "ParamType": "Equal",
       "ParamStr1": "Mission_101140300",
+      "ParamIntList": [],
       "ParamItemList": [],
-      "Progress": 1
+      "FinishActionList": [
+        {
+          "FinishActionType": "SetFloorSavedValue",
+          "FinishActionPara": [],
+          "FinishActionParaString": [
+            "20101",
+            "20101001",
+            "WorldStateByMainMission",
+            "1"
+          ]
+        }
+      ],
+      "Progress": 1,
+      "CustomValueList": [],
+      "CustomValueReward": [],
+      "GroupIDList": [],
+      "RequiredNPCSeriesIDList": [],
+      "GotoParam": [],
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 101140301,
@@ -30,7 +50,7 @@
       "LevelFloorID": 20134001,
       "TakeType": "Auto",
       "TakeParamIntList": [
-        101140302
+        1011403
       ],
       "FinishType": "EnterFloor",
       "ParamType": "Equal",

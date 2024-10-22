@@ -1,12 +1,20 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Crowd_1",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10301_F10301001_G5",
   "SaveType": "Reset",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
-  "TagContainer": {},
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Crowd",
+        "TagHash": -581694062
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -1357,7 +1365,8 @@
           },
           "LocalRotationY": 274.5264,
           "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100010222
+          "DefaultIdleFreeStyleMotionID": 100010222,
+          "NearbyAnimConfig": {}
         },
         {
           "Identity": "Family_Normal",
@@ -1373,7 +1382,8 @@
           },
           "LocalRotationY": 179.7085,
           "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100040231
+          "DefaultIdleFreeStyleMotionID": 100040231,
+          "NearbyAnimConfig": {}
         }
       ],
       "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F10301001/MunicipalChatConfig_F10301001_0092.json",
@@ -1414,7 +1424,8 @@
             "Z": -0.559999
           },
           "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100040228
+          "DefaultIdleFreeStyleMotionID": 100040228,
+          "NearbyAnimConfig": {}
         },
         {
           "Identity": "Tourist_Low",
@@ -1430,7 +1441,8 @@
           },
           "LocalRotationY": 253.3855,
           "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100040210
+          "DefaultIdleFreeStyleMotionID": 100040210,
+          "NearbyAnimConfig": {}
         }
       ],
       "NewMunicipalChatCrowdInfos": [],
@@ -1456,16 +1468,17 @@
           "LookAtAnchor": {},
           "LookAtPosition": {},
           "LocalPosition": {
-            "X": -0.00024,
-            "Y": 0,
-            "Z": 0.003863
+            "X": 1.032997,
+            "Y": -0.07871,
+            "Z": -0.620992
           },
-          "LocalRotationY": 140.5406,
+          "LocalRotationY": 102.7408,
           "PossessionConfig": {
             "Name": "Possession_MineralGlass_A_01"
           },
           "DefaultAnimationType": "FreeStyle",
-          "DefaultIdleFreeStyleMotionID": 100010318
+          "DefaultIdleFreeStyleMotionID": 100010318,
+          "NearbyAnimConfig": {}
         }
       ],
       "NewMunicipalChatConfigPath": "Config/Level/MunicipalChatConfig/F10301001/MunicipalChatConfig_F10301001_0083.json",
@@ -1477,15 +1490,15 @@
       ],
       "TriggerRudius": 5,
       "CenterPos": {
-        "X": -0.00024,
-        "Y": 0,
-        "Z": 0.003863
+        "X": 1.032997,
+        "Y": -0.07871,
+        "Z": -0.620992
       },
       "Name": "Crowd30",
       "RotY": 65.56943,
       "ID": 30,
       "PosX": -140.907,
-      "PosY": -14.82701,
+      "PosY": -14.665,
       "PosZ": 184.636
     },
     {
@@ -2651,9 +2664,9 @@
       ],
       "TriggerRudius": 5,
       "CenterPos": {
-        "X": -0.026279,
+        "X": -0.026278,
         "Y": 5E-06,
-        "Z": -1.33385
+        "Z": -1.333851
       },
       "Name": "Crowd12",
       "RotY": 352.3879,
@@ -3219,7 +3232,6 @@
           "FeatureID": "Tourist_High_EntertainmentLady",
           "UniqueName": "5_55_01",
           "LookAtMode": "Closed",
-          "LookAtTarget": "5_55_02",
           "LookAtAnchor": {},
           "LookAtPosition": {},
           "LocalPosition": {
@@ -3645,6 +3657,9 @@
     }
   ],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

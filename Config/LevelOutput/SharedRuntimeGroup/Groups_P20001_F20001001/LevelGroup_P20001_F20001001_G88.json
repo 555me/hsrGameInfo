@@ -12,12 +12,23 @@
     ]
   },
   "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Mission.LegacyNormal",
+        "TagHash": 439974373
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
     {
       "PropID": 120,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Shape": "Box",
         "Radius": 1,
@@ -28,12 +39,15 @@
           "X": 0.57,
           "Y": 0,
           "Z": 0
-        }
+        },
+        "PointList": []
       },
       "CampID": 4,
       "State": "Open",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [
         500010301,
@@ -41,6 +55,9 @@
       ],
       "TalkChosenType": "random",
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop1",
       "ID": 300001,
       "PosX": -19.467,
@@ -50,6 +67,7 @@
     {
       "PropID": 120,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Shape": "Box",
         "Radius": 1,
@@ -60,12 +78,15 @@
           "X": -0.69,
           "Y": 0,
           "Z": 0
-        }
+        },
+        "PointList": []
       },
       "CampID": 4,
       "State": "Open",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [
         500010201,
@@ -78,9 +99,12 @@
         "PackList": []
       },
       "InteractIconType": "CheckIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": 1622049965
       },
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop2",
       "ID": 300002,
       "PosX": 13.671,
@@ -90,6 +114,7 @@
     {
       "PropID": 120,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Shape": "Box",
         "Radius": 1,
@@ -100,12 +125,15 @@
           "X": 0,
           "Y": 0,
           "Z": -1.71
-        }
+        },
+        "PointList": []
       },
       "CampID": 4,
       "State": "Open",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [
         500011606,
@@ -121,9 +149,12 @@
         "PackList": []
       },
       "InteractIconType": "CheckIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": -1510117917
       },
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop4",
       "ID": 300004,
       "PosX": -0.056,
@@ -133,17 +164,21 @@
     {
       "PropID": 120,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Shape": "Box",
         "Radius": 1,
         "DimX": 4,
         "DimY": 1,
-        "DimZ": 1
+        "DimZ": 1,
+        "PointList": []
       },
       "CampID": 4,
       "State": "Open",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "TalkChosenType": "random",
@@ -153,9 +188,12 @@
         "PackList": []
       },
       "InteractIconType": "CheckIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": 278713937
       },
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop3",
       "ID": 300003,
       "PosX": 11.04,
@@ -165,17 +203,21 @@
     {
       "PropID": 120,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Shape": "Box",
         "Radius": 1,
         "DimX": 4,
         "DimY": 1,
-        "DimZ": 1
+        "DimZ": 1,
+        "PointList": []
       },
       "CampID": 4,
       "State": "Open",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "TalkChosenType": "random",
@@ -185,9 +227,12 @@
         "PackList": []
       },
       "InteractIconType": "CheckIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": 278713937
       },
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop5",
       "ID": 300005,
       "PosX": -10.9,
@@ -197,17 +242,21 @@
     {
       "PropID": 120,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Shape": "Box",
         "Radius": 1,
         "DimX": 5,
         "DimY": 1,
-        "DimZ": 2
+        "DimZ": 2,
+        "PointList": []
       },
       "CampID": 4,
       "State": "Open",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "TalkChosenType": "random",
@@ -217,9 +266,12 @@
         "PackList": []
       },
       "InteractIconType": "CheckIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": 278713937
       },
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop6",
       "ID": 300006,
       "PosX": -0.29,
@@ -229,17 +281,21 @@
     {
       "PropID": 120,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Shape": "Box",
         "Radius": 1,
         "DimX": 8,
         "DimY": 1,
-        "DimZ": 6
+        "DimZ": 6,
+        "PointList": []
       },
       "CampID": 4,
       "State": "Open",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "TalkChosenType": "random",
@@ -249,9 +305,12 @@
         "PackList": []
       },
       "InteractIconType": "CheckIcon",
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
       "InteractTitle": {
         "Hash": 278713937
       },
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop7",
       "ID": 300007,
       "PosX": 5.04,
@@ -261,20 +320,27 @@
     {
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Radius": 1,
         "DimX": 1,
         "DimY": 1,
-        "DimZ": 1
+        "DimZ": 1,
+        "PointList": []
       },
       "CampID": 4,
       "OverrideHintRange": 25,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "TalkChosenType": "random",
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop8",
       "ID": 300008,
       "PosX": 10.32,
@@ -284,20 +350,27 @@
     {
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Radius": 1,
         "DimX": 1,
         "DimY": 1,
-        "DimZ": 1
+        "DimZ": 1,
+        "PointList": []
       },
       "CampID": 4,
       "OverrideHintRange": 25,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "TalkChosenType": "random",
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop9",
       "ID": 300009,
       "PosX": 10.372,
@@ -307,20 +380,27 @@
     {
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Radius": 1,
         "DimX": 1,
         "DimY": 1,
-        "DimZ": 1
+        "DimZ": 1,
+        "PointList": []
       },
       "CampID": 4,
       "OverrideHintRange": 25,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "TalkChosenType": "random",
       "ServerInteractVerificationIDList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop10",
       "ID": 300010,
       "PosX": -0.704,
@@ -334,5 +414,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

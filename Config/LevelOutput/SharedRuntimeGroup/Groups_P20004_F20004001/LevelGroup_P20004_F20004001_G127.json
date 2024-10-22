@@ -1,17 +1,23 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "MainMission4140116_01",
+  "Category": "Atmosphere",
   "LevelGraph": "Config/Level/GroupGraph/F20004001/Group_F20004001_G127.json",
   "AreaAnchorName": "LevelArea_P20004_F20004001_G127",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
+  "AtmosphereCondition": {},
   "LoadSide": "Server",
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Interactable",
+        "TagHash": 597667137
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -40,6 +46,7 @@
         }
       },
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
@@ -48,7 +55,10 @@
         "PrefabAlias": "N4_D4_VendingMachine_L",
         "UseOverridePos": false
       },
-      "TriggerValidGuest": {},
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -67,5 +77,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

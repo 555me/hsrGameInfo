@@ -98,6 +98,16 @@
           },
           "SuccessTaskList": [
             {
+              "$type": "RPG.GameCore.SetDynamicValue",
+              "Value": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 0
+                }
+              },
+              "DynamicKey": "CDF_IsEnterBattle"
+            },
+            {
               "$type": "RPG.GameCore.AddAdventureModifier",
               "TargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
@@ -393,6 +403,16 @@
                     "Alias": "ParamEntity"
                   },
                   "ID": 122002
+                },
+                {
+                  "$type": "RPG.GameCore.SetDynamicValue",
+                  "Value": {
+                    "IsDynamic": false,
+                    "FixedValue": {
+                      "Value": 1
+                    }
+                  },
+                  "DynamicKey": "CDF_IsEnterBattle"
                 }
               ],
               "OnHit": [
@@ -413,7 +433,23 @@
               }
             },
             {
-              "$type": "RPG.GameCore.EnableLocalPlayerMoveIgnoreMonster"
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByCompareDynamicValue",
+                "DynamicKey": "CDF_IsEnterBattle",
+                "CompareType": "LessEqual",
+                "CompareValue": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 0
+                  }
+                }
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.EnableLocalPlayerMoveIgnoreMonster"
+                }
+              ]
             },
             {
               "$type": "RPG.GameCore.RemoveMazeBuff",
@@ -974,6 +1010,16 @@
     "ADV_StageAbility_Maze_Feixiao": {
       "OnCreate": [
         {
+          "$type": "RPG.GameCore.SetDynamicValue",
+          "Value": {
+            "IsDynamic": false,
+            "FixedValue": {
+              "Value": 0
+            }
+          },
+          "DynamicKey": "CDF_IsEnterBattle"
+        },
+        {
           "$type": "RPG.GameCore.ModifyAdventureCharacterRunSpeedRatio",
           "UniqueKey": "ADV_Modifier_Maze_Feixiao",
           "TransitionDuration": 0.3,
@@ -1048,7 +1094,23 @@
           "ModifierName": "ADV_StageAbility_Maze_Feixiao_Visual"
         },
         {
-          "$type": "RPG.GameCore.EnableLocalPlayerMoveIgnoreMonster"
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByCompareDynamicValue",
+            "DynamicKey": "CDF_IsEnterBattle",
+            "CompareType": "Equal",
+            "CompareValue": {
+              "IsDynamic": false,
+              "FixedValue": {
+                "Value": 0
+              }
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.EnableLocalPlayerMoveIgnoreMonster"
+            }
+          ]
         },
         {
           "$type": "RPG.GameCore.ModifyAdventureCharacterRunSpeedRatio",

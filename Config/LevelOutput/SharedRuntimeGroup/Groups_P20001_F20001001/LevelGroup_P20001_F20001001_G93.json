@@ -11,7 +11,16 @@
     ]
   },
   "LoadSide": "Server",
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialEntrance",
+        "TagHash": -1446353026
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -40,6 +49,7 @@
       "BoardShowList": [
         2
       ],
+      "TagList": [],
       "Name": "Monster1",
       "RotY": 30,
       "ID": 200001,
@@ -76,7 +86,9 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "AnchorGroupID": 93,
       "AnchorID": 1,
       "MappingInfoID": 1101,
@@ -96,6 +108,13 @@
           "IconID": 71
         }
       ],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
       "Name": "Prop1",
       "RotY": 300,
       "ID": 300001,
@@ -111,5 +130,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

@@ -4,7 +4,7 @@
   "AreaAnchorName": "LevelArea_P80205_F80205001_G4",
   "SaveType": "Reset",
   "LoadOnInitial": true,
-  "GroupStateList": [],
+  "ValueSource": {},
   "ConflictIDList": [],
   "AnchorList": [
     {
@@ -44,6 +44,7 @@
     {
       "PropID": 101004,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "DimX": 5,
         "DimY": 3,
@@ -56,11 +57,15 @@
         "PointList": []
       },
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "OverrideMapStateIcons": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop2",
       "RotY": 180,
       "ID": 300002,
@@ -71,6 +76,7 @@
     {
       "PropID": 301011,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "Trigger": {
         "Radius": 25,
         "DimX": 1,
@@ -80,6 +86,7 @@
       },
       "State": "BridgeState1",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [
         180,
         270,
@@ -88,19 +95,19 @@
       ],
       "StateConfigs": [
         {
-          "State": "BridgeState1",
-          "Rotation": 180
+          "State": "BridgeState1"
         },
         {
           "State": "BridgeState2",
-          "Rotation": 270
+          "Rotation": 90
         },
         {
-          "State": "BridgeState3"
+          "State": "BridgeState3",
+          "Rotation": 180
         },
         {
           "State": "BridgeState4",
-          "Rotation": 90
+          "Rotation": 270
         }
       ],
       "DialogueGroups": [],
@@ -109,6 +116,13 @@
       "StageObjectCapture": {
         "BlockAlias": "Chap01_CloseView_MAZ_M301_MazePart07",
         "PrefabAlias": "Chap01_Grd_WheelGear_01_part01"
+      },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "TagOverrideComponents": {},
+      "CameraCenterEntityList": [],
+      "CameraConfig": {},
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
       },
       "Name": "Prop3",
       "RotY": 180,
@@ -120,12 +134,17 @@
     {
       "PropID": 101004,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "OverrideMapStateIcons": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop8",
       "ID": 300008,
       "PosX": 0.22,
@@ -135,12 +154,17 @@
     {
       "PropID": 101005,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "OverrideMapStateIcons": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop10",
       "RotY": 180,
       "ID": 300010,
@@ -151,12 +175,17 @@
     {
       "PropID": 101005,
       "IsOverrideInitLevelGraph": true,
+      "ValueSource": {},
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
+      "StateConfigs": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "OverrideMapStateIcons": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {},
       "Name": "Prop11",
       "RotY": 90,
       "ID": 300011,
@@ -172,5 +201,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

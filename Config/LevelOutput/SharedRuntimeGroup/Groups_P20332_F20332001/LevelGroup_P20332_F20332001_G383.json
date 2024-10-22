@@ -17,7 +17,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
-  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -43,23 +42,16 @@
         "EntitySpawnConfig": {}
       },
       "Name": "Monster1",
-      "RotY": 55,
+      "RotY": 39.56805,
       "ID": 200001,
-      "PosX": 80.96,
-      "PosY": 7.259277,
-      "PosZ": 96.56
+      "PosX": 56.44844,
+      "PosY": 4.210945,
+      "PosZ": 142.1509
     },
     {
       "NPCMonsterID": 3002040,
       "AIConfig": {
-        "PathwayList": [
-          {
-            "UseOwnerGroup": true,
-            "UseGroup": 383,
-            "UseID": 1,
-            "StartAt": 1
-          }
-        ],
+        "PathwayList": [],
         "SlaveConfigList": []
       },
       "AIVariableSource": {},
@@ -78,11 +70,11 @@
         "EntitySpawnConfig": {}
       },
       "Name": "Monster2",
-      "RotY": 145,
+      "RotY": 201.5049,
       "ID": 200002,
-      "PosX": 80.30547,
-      "PosY": 7.259285,
-      "PosZ": 105.5344
+      "PosX": 59.36147,
+      "PosY": 4.210945,
+      "PosZ": 145.8122
     }
   ],
   "PropList": [],
@@ -118,6 +110,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

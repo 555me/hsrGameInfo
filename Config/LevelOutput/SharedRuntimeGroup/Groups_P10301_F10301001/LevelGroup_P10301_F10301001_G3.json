@@ -1,6 +1,7 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Flow",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10301_F10301001_G3",
   "SaveType": "Reset",
   "UnloadCondition": {
@@ -19,6 +20,14 @@
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Pedestrian",
+        "TagHash": -1538129508
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -210,9 +219,9 @@
           "LocalPosition": {
             "X": -39.03,
             "Y": -16.88097,
-            "Z": 68.89
+            "Z": 69.021
           },
-          "Width": 2.2,
+          "Width": 2.1,
           "LocalRotationY": 270
         },
         {
@@ -7902,6 +7911,9 @@
       "ID": 25
     }
   ],
+  "PedestrianV2List": [],
   "AudienceList": [],
-  "SmartObjectList": []
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

@@ -1,11 +1,11 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Shelter Group",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P20004_F20004001_G108",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
+  "AtmosphereCondition": {
+    "Conditions": []
   },
   "LoadOnInitial": true,
   "ValueSource": {},
@@ -13,6 +13,14 @@
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
   "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.SafeRoom",
+        "TagHash": 852846579
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -147,5 +155,9 @@
   "NPCList": [],
   "CrowdList": [],
   "PedestrianList": [],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

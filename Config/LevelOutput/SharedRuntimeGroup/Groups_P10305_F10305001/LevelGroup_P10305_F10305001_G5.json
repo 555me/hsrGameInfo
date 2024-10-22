@@ -1,18 +1,23 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Traffic",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10305_F10305001_G5",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
+  "AtmosphereCondition": {},
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
-  "TagContainer": {},
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.Pedestrian",
+        "TagHash": -1538129508
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -819,5 +824,9 @@
       "ID": 4
     }
   ],
-  "SmartObjectList": []
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }

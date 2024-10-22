@@ -35,7 +35,8 @@
       "CustomValueReward": [],
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150102,
@@ -61,7 +62,8 @@
       "WayPointType": "Prop",
       "WayPointFloorID": 20232001,
       "WayPointGroupID": 20,
-      "WayPointEntityID": 300002
+      "WayPointEntityID": 300002,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150103,
@@ -86,7 +88,8 @@
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150104,
@@ -117,7 +120,8 @@
       "WayPointGroupID": 30,
       "WayPointEntityID": 300009,
       "WayPointShowRangeMin": 30,
-      "MapWaypointRange": 20
+      "MapWaypointRange": 20,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150105,
@@ -147,7 +151,8 @@
       "WayPointGroupID": 30,
       "WayPointEntityID": 300010,
       "WayPointShowRangeMin": 30,
-      "MapWaypointRange": 20
+      "MapWaypointRange": 20,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150106,
@@ -177,7 +182,8 @@
       "WayPointGroupID": 30,
       "WayPointEntityID": 300011,
       "WayPointShowRangeMin": 30,
-      "MapWaypointRange": 20
+      "MapWaypointRange": 20,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150107,
@@ -198,7 +204,8 @@
       "CustomValueReward": [],
       "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150108,
@@ -224,7 +231,8 @@
       "WayPointType": "Prop",
       "WayPointFloorID": 20232001,
       "WayPointGroupID": 30,
-      "WayPointEntityID": 300002
+      "WayPointEntityID": 300002,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150109,
@@ -249,9 +257,12 @@
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "WayPointType": "Prop",
+      "GotoParam": [],
       "WayPointFloorID": 20232001,
       "WayPointGroupID": 68,
-      "WayPointEntityID": 300001
+      "WayPointEntityID": 300001,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150111,
@@ -277,7 +288,8 @@
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "IsShowProgress": true,
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150112,
@@ -308,7 +320,8 @@
       "WayPointGroupID": 30,
       "WayPointEntityID": 300009,
       "WayPointShowRangeMin": 30,
-      "MapWaypointRange": 20
+      "MapWaypointRange": 20,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150113,
@@ -347,7 +360,8 @@
       "WayPointGroupID": 30,
       "WayPointEntityID": 300010,
       "WayPointShowRangeMin": 30,
-      "MapWaypointRange": 20
+      "MapWaypointRange": 20,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150114,
@@ -377,7 +391,8 @@
       "WayPointGroupID": 30,
       "WayPointEntityID": 300011,
       "WayPointShowRangeMin": 30,
-      "MapWaypointRange": 20
+      "MapWaypointRange": 20,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150121,
@@ -396,7 +411,8 @@
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150122,
@@ -415,7 +431,8 @@
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150123,
@@ -438,7 +455,8 @@
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150124,
@@ -456,14 +474,28 @@
       "ParamInt2": 10202001,
       "ParamIntList": [],
       "ParamItemList": [],
-      "FinishActionList": [],
+      "FinishActionList": [
+        {
+          "FinishActionType": "SetFloorSavedValue",
+          "FinishActionPara": [],
+          "FinishActionParaString": [
+            "20232",
+            "20232001",
+            "SceneStateByMainMission",
+            "1"
+          ]
+        }
+      ],
       "Progress": 1,
       "CustomValueList": [],
       "CustomValueReward": [],
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "IsShowFinishEffect": 1,
-      "WayPointFloorID": 10202001
+      "GotoParam": [],
+      "WayPointFloorID": 10202001,
+      "StoryLineIDList": [],
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150131,
@@ -485,7 +517,8 @@
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150132,
@@ -517,7 +550,8 @@
       "WayPointGroupID": 30,
       "WayPointEntityID": 300009,
       "WayPointShowRangeMin": 30,
-      "MapWaypointRange": 20
+      "MapWaypointRange": 20,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150133,
@@ -549,7 +583,8 @@
       "WayPointGroupID": 30,
       "WayPointEntityID": 300010,
       "WayPointShowRangeMin": 30,
-      "MapWaypointRange": 20
+      "MapWaypointRange": 20,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150134,
@@ -581,7 +616,8 @@
       "WayPointGroupID": 30,
       "WayPointEntityID": 300011,
       "WayPointShowRangeMin": 30,
-      "MapWaypointRange": 20
+      "MapWaypointRange": 20,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150135,
@@ -600,7 +636,8 @@
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150136,
@@ -631,7 +668,8 @@
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150159,
@@ -658,7 +696,8 @@
       "WayPointType": "Monster",
       "WayPointFloorID": 20232001,
       "WayPointGroupID": 52,
-      "WayPointEntityID": 200002
+      "WayPointEntityID": 200002,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150160,
@@ -676,18 +715,7 @@
         102150113
       ],
       "ParamItemList": [],
-      "FinishActionList": [
-        {
-          "FinishActionType": "SetFloorSavedValue",
-          "FinishActionPara": [],
-          "FinishActionParaString": [
-            "20232",
-            "20232001",
-            "SceneStateByMainMission",
-            "1"
-          ]
-        }
-      ],
+      "FinishActionList": [],
       "Progress": 1,
       "CustomValueList": [],
       "CustomValueReward": [],
@@ -721,7 +749,8 @@
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150162,
@@ -748,7 +777,8 @@
       "WayPointType": "Prop",
       "WayPointFloorID": 20232001,
       "WayPointGroupID": 30,
-      "WayPointEntityID": 300026
+      "WayPointEntityID": 300026,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150163,
@@ -776,7 +806,8 @@
       "GroupIDList": [],
       "RequiredNPCSeriesIDList": [],
       "IsShow": false,
-      "WayPointFloorID": 20232001
+      "WayPointFloorID": 20232001,
+      "IgnoreVerseParamList": []
     },
     {
       "ID": 102150164,
@@ -791,7 +822,8 @@
       "Progress": 1,
       "CustomValueReward": [],
       "GroupIDList": [],
-      "RequiredNPCSeriesIDList": []
+      "RequiredNPCSeriesIDList": [],
+      "IgnoreVerseParamList": []
     }
   ],
   "MissionCustomValueList": [
@@ -819,5 +851,6 @@
         1
       ]
     }
-  ]
+  ],
+  "AssistWayPointPackList": []
 }

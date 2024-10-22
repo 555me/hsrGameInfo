@@ -2,16 +2,28 @@
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "Monster_ChestMonster",
   "AreaAnchorName": "LevelArea_P20101_F20101001_G34",
-  "LoadCondition": {
+  "SavedValueCondition": {
     "Conditions": [
       {
-        "Phase": "Finish",
-        "ID": 1010101
+        "SavedValueName": "SceneStateByMainMission",
+        "Value": 1
       }
     ],
-    "DelayToLevelReload": true
+    "Operation": "And"
   },
   "LoadSide": "Server",
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Level.SpecialMonster",
+        "TagHash": -1267591894
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [
     {
@@ -29,6 +41,7 @@
       "BoardShowList": [
         2
       ],
+      "TagList": [],
       "Name": "Monster1",
       "RotY": 315.6,
       "ID": 200001,
@@ -44,5 +57,10 @@
   "BattleAreaList": [],
   "NPCList": [],
   "CrowdList": [],
-  "PedestrianList": []
+  "PedestrianList": [],
+  "PedestrianV2List": [],
+  "AudienceList": [],
+  "SmartObjectList": [],
+  "CurveList": [],
+  "LittleGameList": []
 }
