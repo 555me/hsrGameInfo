@@ -1,5 +1,5 @@
-# StarRailData
-Repository containing the data for the game Honkai: Star Rail.
+# SRData
+Repository containing the data for the game HSR.
 
 # How do I find the missing text map entries?
 
@@ -20,3 +20,5 @@ public static int GetStableHash(string str) {
     }
 }
 ```
+
+## This repository forks [Dim](https://github.com/Dimbreath) on gitlab.Thank you for providing the data.
