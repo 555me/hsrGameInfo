@@ -1,0 +1,32 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "ScenePropSound01",
+  "AreaAnchorName": "LevelArea_P10101_F10101001_G65",
+  "LoadOnInitial": true,
+  "AnchorList": [],
+  "MonsterList": [],
+  "PropList": [
+    {
+      "PropID": 301019,
+      "IsOverrideInitLevelGraph": true,
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "Name": "Grandtheater",
+      "ID": 300001,
+      "PosX": 13.13,
+      "PosY": 0.244598,
+      "PosZ": 88.33
+    }
+  ],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [],
+  "CrowdList": [],
+  "PedestrianList": []
+}

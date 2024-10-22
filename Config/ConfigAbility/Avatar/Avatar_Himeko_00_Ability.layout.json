@@ -1,0 +1,74 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "Avatar_Himeko_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Avatar_Himeko_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 285
+    },
+    {
+      "UniqueName": "Avatar_Himeko_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 846
+    },
+    {
+      "UniqueName": "Avatar_Himeko_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1220
+    },
+    {
+      "UniqueName": "Avatar_Himeko_Skill03_EnterReady",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2383
+    },
+    {
+      "UniqueName": "Avatar_Himeko_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2711
+    },
+    {
+      "UniqueName": "Avatar_Himeko_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2924
+    },
+    {
+      "UniqueName": "Avatar_Himeko_PassiveSkill01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3371
+    },
+    {
+      "UniqueName": "Avatar_Himeko_Passive1Atk_Ability",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5911
+    },
+    {
+      "UniqueName": "Avatar_Himeko_Passive1Atk02_Ability",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6394
+    },
+    {
+      "UniqueName": "Avatar_Himeko_SkillMazeInLevel",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7025
+    },
+    {
+      "UniqueName": "Avatar_Himeko_SkillTree01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7264
+    },
+    {
+      "UniqueName": "Avatar_Himeko_SkillTree03",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7485
+    },
+    {
+      "UniqueName": "Avatar_Himeko_Rank02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7990
+    }
+  ]
+}

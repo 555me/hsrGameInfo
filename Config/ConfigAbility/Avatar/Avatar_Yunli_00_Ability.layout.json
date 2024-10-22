@@ -1,0 +1,201 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "MAvatar_Yunli_00_SuperCounter_Mark",
+      "Offset": 15303
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_SuperCounter_Achevement",
+      "Offset": 15346
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_SkillMazeInLevel",
+      "Offset": 15382
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Passive_AddDamage",
+      "Offset": 15475
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_AddRegardAsAttackType",
+      "Offset": 15663
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_SkillTree01",
+      "Offset": 15756
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_SkillTree01_Sub",
+      "Offset": 15798
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_SkillTree03",
+      "Offset": 15868,
+      "Dependency": [
+        "MAvatar_Yunli_00_SkillTree03_Sub"
+      ]
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_SkillTree03_Sub",
+      "Offset": 16015
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_Blocking_CritDamage",
+      "Offset": 16109
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_Blocking_Effect",
+      "Offset": 16279
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_SkillTree03_CritChance",
+      "Offset": 16606
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_Rank01",
+      "Offset": 16693
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_Rank02",
+      "Offset": 16780
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_Rank04",
+      "Offset": 16852
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_Rank06",
+      "Offset": 16921
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_WeaponCharge_Free",
+      "Offset": 17048
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_AddAggro",
+      "Offset": 17075
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_Skill03_ForBidUltra",
+      "Offset": 17169
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_WeaponCharge",
+      "Offset": 17239
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_Blocking",
+      "Offset": 17279,
+      "Dependency": [
+        "MAvatar_Yunli_00_SkillTree02_ControlResist",
+        "MAvatar_Yunli_00_Blocking_BeingAttackMark",
+        "MAvatar_Yunli_00_SuperCounter_Mark",
+        "MAvatar_Yunli_00_Blocking_BeingAttackMark",
+        "MAvatar_Yunli_00_SuperCounter_Mark"
+      ]
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_Blocking_BeingAttackMark",
+      "Offset": 21968
+    },
+    {
+      "UniqueName": "MAvatar_Yunli_00_SkillTree02_ControlResist",
+      "Offset": 22020
+    },
+    {
+      "UniqueName": "Yunli_InsertAbility1",
+      "TypeId": "TypeId_TaskListTemplateConfig",
+      "Offset": 22148
+    },
+    {
+      "UniqueName": "Yunli_InsertAbility2",
+      "TypeId": "TypeId_TaskListTemplateConfig",
+      "Offset": 22353
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 283
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 780
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 937
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Skill03_EnterReady",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2019
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2058
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2353
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Skill03_Counter_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2891
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Skill03_NormalCounter",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5695
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Skill03_SuperCounter",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7436
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Counter_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 9727
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Counter_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 10335
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_Counter_Preshow",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 11556
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_PassiveSkill01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 11675
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_SkillMazeInLevel",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 13439
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_SkillMazeInLevel_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 14107
+    },
+    {
+      "UniqueName": "Avatar_Yunli_00_SkillMazeInLevel_Insert_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 14530
+    }
+  ]
+}

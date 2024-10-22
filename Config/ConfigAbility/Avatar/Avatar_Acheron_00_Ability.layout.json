@@ -1,0 +1,219 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "MAvatar_Acheron_00_RuondDeBuffCD",
+      "Offset": 21435
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_BlockModifySp",
+      "Offset": 21470
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_OnListenDeBuffAdd",
+      "Offset": 21696,
+      "Dependency": [
+        "MAvatar_Acheron_00_RuondDeBuffCD",
+        "MAvatar_Acheron_00_RuondDeBuffCD"
+      ]
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_Passive01Modifier",
+      "Offset": 22164
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_PointB3_DamageUp",
+      "Offset": 22509
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_Skill03_Special",
+      "Offset": 22670,
+      "Dependency": [
+        "MAvatar_Acheron_00_Skill03_StancePreview"
+      ]
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_SkillChange01",
+      "Offset": 23076
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_SkillChange02",
+      "Offset": 23166
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_SkillChange03",
+      "Offset": 23256
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_SkillChange04",
+      "Offset": 23346
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_PassiveFlag01",
+      "Offset": 23433
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_DebuffSpecialMark01_Empty",
+      "Offset": 24094
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_AllDamageTypeResistance",
+      "Offset": 25273
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_Rank04_AllDamageTypeTakenRatio",
+      "Offset": 25385
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_Rank06_AddRegardAsSkillType",
+      "Offset": 25496,
+      "Dependency": [
+        "MAvatar_Acheron_00_Skill01_StancePreview",
+        "MAvatar_Acheron_00_Skill02_StancePreview"
+      ]
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_Rank06_ForceStanceDamage",
+      "Offset": 25754
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_Skill01_StancePreview",
+      "Offset": 25805
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_Skill02_StancePreview",
+      "Offset": 25853
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_Skill03_StancePreview",
+      "Offset": 25901
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_UltraSkillSpareCount",
+      "Offset": 25948
+    },
+    {
+      "UniqueName": "MAvatar_Acheron_00_UltraSkillSpareCount_PointB1",
+      "Offset": 26157
+    },
+    {
+      "UniqueName": "Acheron_SetEnergyBarState",
+      "TypeId": "TypeId_TaskListTemplateConfig",
+      "Offset": 26426
+    },
+    {
+      "UniqueName": "Acheron_AddFlower_Skill",
+      "TypeId": "TypeId_TaskListTemplateConfig",
+      "Offset": 26903
+    },
+    {
+      "UniqueName": "Acheron_AddFlower_Passiv01",
+      "TypeId": "TypeId_TaskListTemplateConfig",
+      "Offset": 27419
+    },
+    {
+      "UniqueName": "Acheron_LimboTransfer",
+      "TypeId": "TypeId_TaskListTemplateConfig",
+      "Offset": 27967
+    },
+    {
+      "UniqueName": "Acheron_HitFlower",
+      "TypeId": "TypeId_TaskListTemplateConfig",
+      "Offset": 28681
+    },
+    {
+      "UniqueName": "Acheron_TiggerFlower",
+      "TypeId": "TypeId_TaskListTemplateConfig",
+      "Offset": 28897
+    },
+    {
+      "UniqueName": "Acheron_AddFlower_Passiv02",
+      "TypeId": "TypeId_TaskListTemplateConfig",
+      "Offset": 30988
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 405
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 971
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2035
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill03_EnterReady",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4525
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4708
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5484
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill31_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6177
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill31_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6626
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill32_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8278
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill32_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8958
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill33_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 11097
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill33_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 11736
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill34_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 12748
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_Skill34_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 13397
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_PassiveSkill_1",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 14873
+    },
+    {
+      "UniqueName": "Avatar_Acheron_00_SkillMazeInLevel",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 20028
+    }
+  ]
+}

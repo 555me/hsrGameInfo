@@ -1,0 +1,369 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "RogueBuffModifier_Halo",
+      "Offset": 45813
+    },
+    {
+      "UniqueName": "RogueBuffModifier_Halo_Handler",
+      "Offset": 46852
+    },
+    {
+      "UniqueName": "Level_RogueBuffModifier_Halo_LayerCounter",
+      "Offset": 47076
+    },
+    {
+      "UniqueName": "Level_RogueBuffModifier_Halo_HealFlag_612430",
+      "Offset": 47133
+    },
+    {
+      "UniqueName": "Level_RogueBuffModifier_Halo_HealFlag_612431",
+      "Offset": 47180
+    },
+    {
+      "UniqueName": "RogueBuffModifier_Rage_612530",
+      "Offset": 47212
+    },
+    {
+      "UniqueName": "RogueBuffModifier_Rage_612531",
+      "Offset": 47356
+    },
+    {
+      "UniqueName": "RogueBuffModifier_Rage_612531_Teammate",
+      "Offset": 47509,
+      "Dependency": [
+        "RogueBuffModifier_Rage_612531"
+      ]
+    },
+    {
+      "UniqueName": "RogueBuffModifier_Rage_612531_Listen",
+      "Offset": 48019,
+      "Dependency": [
+        "RogueBuffModifier_Rage",
+        "RogueBuffModifier_Rage"
+      ]
+    },
+    {
+      "UniqueName": "RogueBuffModifier_Rage",
+      "Offset": 49236
+    },
+    {
+      "UniqueName": "StageAbility_61254201_Modifier_Damage_Reduce",
+      "Offset": 50706
+    },
+    {
+      "UniqueName": "StageAbility_61254301_Modifier_ATK_Increase",
+      "Offset": 50933
+    },
+    {
+      "UniqueName": "StageAbility_61254302_Modifier_ATK_Increase",
+      "Offset": 51218
+    },
+    {
+      "UniqueName": "StageAbility_61254401_Modifier_Damage_Increase",
+      "Offset": 51561
+    },
+    {
+      "UniqueName": "StageAbility_61255601_Modifier_DEF_Increase",
+      "Offset": 51779
+    },
+    {
+      "UniqueName": "StageAbility_61255701_Modifier_STR_Increase",
+      "Offset": 52064
+    },
+    {
+      "UniqueName": "StageAbility_61244001_Modifier_CriticalChanceConvert",
+      "Offset": 52359
+    },
+    {
+      "UniqueName": "StageAbility_61244002_Modifier_CriticalChanceConvert",
+      "Offset": 52861
+    },
+    {
+      "UniqueName": "StageAbility_61244301_Modifier_Continues_ATK_Buff",
+      "Offset": 53616
+    },
+    {
+      "UniqueName": "StageAbility_61243202_Modifier_NextStanceDamageUp",
+      "Offset": 53859
+    },
+    {
+      "UniqueName": "StageAbility_61244402_Modifier_NextUltraDamageUp",
+      "Offset": 53973
+    },
+    {
+      "UniqueName": "StageAbility_61245701_Modifier_AttackUp",
+      "Offset": 54072
+    },
+    {
+      "UniqueName": "StageAbility_61243001",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "StageAbility_61243002",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1755
+    },
+    {
+      "UniqueName": "StageAbility_61243101",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3569
+    },
+    {
+      "UniqueName": "StageAbility_61243201",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5593
+    },
+    {
+      "UniqueName": "StageAbility_61244001",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6560
+    },
+    {
+      "UniqueName": "StageAbility_61244002",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7301
+    },
+    {
+      "UniqueName": "StageAbility_61244101",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8114
+    },
+    {
+      "UniqueName": "StageAbility_61244102",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 9197
+    },
+    {
+      "UniqueName": "StageAbility_61244201",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 10540
+    },
+    {
+      "UniqueName": "StageAbility_61244202",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 11527
+    },
+    {
+      "UniqueName": "StageAbility_61244301",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 13066
+    },
+    {
+      "UniqueName": "StageAbility_61244302",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 13701
+    },
+    {
+      "UniqueName": "StageAbility_61244401",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 14469
+    },
+    {
+      "UniqueName": "StageAbility_61244402",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 14857
+    },
+    {
+      "UniqueName": "StageAbility_61244501",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 15338
+    },
+    {
+      "UniqueName": "StageAbility_61244502",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 16138
+    },
+    {
+      "UniqueName": "StageAbility_61244601",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 16967
+    },
+    {
+      "UniqueName": "StageAbility_61244602",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 17381
+    },
+    {
+      "UniqueName": "StageAbility_61245001",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 17916
+    },
+    {
+      "UniqueName": "StageAbility_61245101",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 18329
+    },
+    {
+      "UniqueName": "StageAbility_61245201",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 18665
+    },
+    {
+      "UniqueName": "StageAbility_61245301",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 19001
+    },
+    {
+      "UniqueName": "StageAbility_61245401",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 19368
+    },
+    {
+      "UniqueName": "StageAbility_61245501",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 19728
+    },
+    {
+      "UniqueName": "StageAbility_61245601",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 20104
+    },
+    {
+      "UniqueName": "StageAbility_61245701",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 20439
+    },
+    {
+      "UniqueName": "StageAbility_61253001",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 21040
+    },
+    {
+      "UniqueName": "StageAbility_61253002",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 23246
+    },
+    {
+      "UniqueName": "StageAbility_61253101",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 25664
+    },
+    {
+      "UniqueName": "StageAbility_61253102",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 27825
+    },
+    {
+      "UniqueName": "StageAbility_61253201",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 30413
+    },
+    {
+      "UniqueName": "StageAbility_61253202",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 30947
+    },
+    {
+      "UniqueName": "StageAbility_61254001",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 31522
+    },
+    {
+      "UniqueName": "StageAbility_61254002",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 32163
+    },
+    {
+      "UniqueName": "StageAbility_61254101",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 33076
+    },
+    {
+      "UniqueName": "StageAbility_61254102",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 33847
+    },
+    {
+      "UniqueName": "StageAbility_61254201",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 34754
+    },
+    {
+      "UniqueName": "StageAbility_61254202",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 35141
+    },
+    {
+      "UniqueName": "StageAbility_61254301",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 35753
+    },
+    {
+      "UniqueName": "StageAbility_61254302",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 36230
+    },
+    {
+      "UniqueName": "StageAbility_61254401",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 36743
+    },
+    {
+      "UniqueName": "StageAbility_61254501",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 38058
+    },
+    {
+      "UniqueName": "StageAbility_61254502",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 38757
+    },
+    {
+      "UniqueName": "StageAbility_61254601",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 39712
+    },
+    {
+      "UniqueName": "StageAbility_61254602",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 40263
+    },
+    {
+      "UniqueName": "StageAbility_61255001",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 40832
+    },
+    {
+      "UniqueName": "StageAbility_61255101",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 41245
+    },
+    {
+      "UniqueName": "StageAbility_61255101_Camera",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 41924
+    },
+    {
+      "UniqueName": "StageAbility_61255201",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 42474
+    },
+    {
+      "UniqueName": "StageAbility_61255301",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 42810
+    },
+    {
+      "UniqueName": "StageAbility_61255401",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 43206
+    },
+    {
+      "UniqueName": "StageAbility_61255501",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 43748
+    },
+    {
+      "UniqueName": "StageAbility_61255601",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 44830
+    },
+    {
+      "UniqueName": "StageAbility_61255701",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 45309
+    }
+  ]
+}

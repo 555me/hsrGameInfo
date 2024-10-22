@@ -1,0 +1,96 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "MMonster_W2_Valkyrie02_00_RLElite_RemoveOneMore",
+      "Offset": 8103,
+      "Dependency": [
+        "OneMorePerTurn",
+        "OneMorePerTurn"
+      ]
+    },
+    {
+      "UniqueName": "MMonster_W2_Valkyrie02_00_RLElite_AimMark",
+      "Offset": 10223
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_PassiveSkillInitiate",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_SkillP01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 279
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 325
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 624
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1241
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1615
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2134
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2391
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill04_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3229
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill04_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3629
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill04_Insert_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5222
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill04_Insert_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5597
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill05_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5850
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill05_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6063
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill06_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6466
+    },
+    {
+      "UniqueName": "Monster_W2_Valkyrie02_00_RLElite_Skill06_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6866
+    }
+  ]
+}

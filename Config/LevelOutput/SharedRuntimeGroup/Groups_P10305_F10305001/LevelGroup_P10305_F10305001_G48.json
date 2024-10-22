@@ -1,0 +1,136 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "NPC",
+  "AreaAnchorName": "LevelArea_P10305_F10305001_G48",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadSide": "Server",
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "ConflictWhiteList": [],
+  "TagContainer": {},
+  "AnchorList": [
+    {
+      "Name": "Anchor1",
+      "ID": 1,
+      "PosX": -5.556881,
+      "PosY": 2.958,
+      "PosZ": -403.6174
+    },
+    {
+      "Name": "Anchor2",
+      "ID": 2,
+      "PosX": -4.524,
+      "PosY": 2.882,
+      "PosZ": -400.408
+    },
+    {
+      "Name": "Anchor3",
+      "ID": 3,
+      "PosX": 1.32,
+      "PosY": 2.456,
+      "PosZ": -402.62
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "NPCID": 13101,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [
+        45
+      ],
+      "MappingInfoID": 2369,
+      "BoardShowList": [
+        1,
+        64,
+        4
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100010209,
+      "IsMapContent": true,
+      "MiniMapIconType": 4,
+      "InitialHiddenNodeList": [],
+      "Dialog": {
+        "LevelGraph": "Config/Level/NPCDialogue/P10305/F10305001_G48/DialogueMain_F10305001_G48_N400001.json",
+        "PackList": [
+          {
+            "Name": "Common",
+            "LevelGraph": "Config/Level/NPCDialogue/P10305/F10305001_G48/DialoguePack_Common_F10305001_G48_N400001.json"
+          }
+        ]
+      },
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "CaptureDistanceTolerance": 10,
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {},
+      "Name": "NPC1",
+      "RotY": 282.2058,
+      "ID": 400001,
+      "PosX": -2.732,
+      "PosY": 1.613458,
+      "PosZ": -403.001
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "AudienceList": [],
+  "SmartObjectList": [
+    {
+      "SlotList": [
+        {
+          "PlayeMode": "Loop",
+          "PointList": [
+            {
+              "PosX": -1.97,
+              "PosZ": 2.726
+            },
+            {
+              "RotY": 2.4075232E-35
+            },
+            {
+              "PosZ": 9.478011E-38
+            },
+            {
+              "PosZ": 1.0212448E-37,
+              "RotY": 25
+            },
+            {
+              "PosX": -1.33,
+              "PosZ": 5.2
+            },
+            {
+              "RotY": 3.852037E-34
+            }
+          ]
+        }
+      ],
+      "CommonPointList": [
+        {
+          "PosY": 1.0015139E-31,
+          "PosZ": 2.5016127E-35
+        },
+        {
+          "ID": 49
+        }
+      ],
+      "Name": "SmartObject1",
+      "ID": 1,
+      "PosX": -0.714132,
+      "PosY": 1.55316,
+      "PosZ": -406.1059
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "MAvatar_Kafka_00_Passive_CanAttackCD",
+      "Offset": 9979
+    },
+    {
+      "UniqueName": "MAvatar_Kafka_00_Rank04",
+      "Offset": 10009,
+      "Dependency": [
+        "MAvatar_Kafka_00_Rank04_Sub"
+      ]
+    },
+    {
+      "UniqueName": "MAvatar_Kafka_00_Rank04_Sub",
+      "Offset": 10111
+    },
+    {
+      "UniqueName": "Avatar_Kafka_00_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Avatar_Kafka_00_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 368
+    },
+    {
+      "UniqueName": "Avatar_Kafka_00_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 901
+    },
+    {
+      "UniqueName": "Avatar_Kafka_00_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1369
+    },
+    {
+      "UniqueName": "Avatar_Kafka_00_Skill03_EnterReady",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2721
+    },
+    {
+      "UniqueName": "Avatar_Kafka_00_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3047
+    },
+    {
+      "UniqueName": "Avatar_Kafka_00_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3272
+    },
+    {
+      "UniqueName": "Avatar_Kafka_00_PassiveSkill01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4023
+    },
+    {
+      "UniqueName": "Avatar_Kafka_00_PassiveAtk_Ability",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6532
+    },
+    {
+      "UniqueName": "Avatar_Kafka_SkillTree02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8581
+    },
+    {
+      "UniqueName": "Avatar_Kafka_SkillTree01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8785
+    },
+    {
+      "UniqueName": "Avatar_Kafka_Rank02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8816
+    },
+    {
+      "UniqueName": "Avatar_Kafka_00_SkillMazeInLevel",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 9205
+    }
+  ]
+}

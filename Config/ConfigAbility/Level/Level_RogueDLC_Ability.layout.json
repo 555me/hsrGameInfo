@@ -1,0 +1,94 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor01_01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor01_02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 280
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor01_03",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 558
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor01_04",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 836
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor01_05",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1114
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor01_06",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1392
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor01_07",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1670
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor02_01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1950
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor02_02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2130
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor02_03",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2544
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor02_04",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2916
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor02_05",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3377
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor03_01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4409
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor03_02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4597
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor03_03",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4740
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor03_04",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4928
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_Floor03_05",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6035
+    },
+    {
+      "UniqueName": "StageAbility_RogueDLC_ReinforceBE",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6775
+    }
+  ]
+}

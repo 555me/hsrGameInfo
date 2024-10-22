@@ -1,0 +1,132 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "MAvatar_Xueyi_Passive_OnListenStance",
+      "Offset": 9242,
+      "Dependency": [
+        "MAvatar_Xueyi_00_Passive_AddCount"
+      ]
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_00_Skill03_AddAttackRatio",
+      "Offset": 9806
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_00_Skill03_WeakType_BUFF",
+      "Offset": 10271
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_SkillTree02",
+      "Offset": 10308
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_SkillRank04",
+      "Offset": 10370
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_00_Passive_AddCount",
+      "Offset": 10462,
+      "Dependency": [
+        "MAvatar_Xueyi_Passive_SkillTree03",
+        "MAvatar_Xueyi_Passive_SkillTree03",
+        "MAvatar_Xueyi_00_BP_Passive01"
+      ]
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_00_BP_Passive01",
+      "Offset": 12201,
+      "Dependency": [
+        "MAvatar_Xueyi_00_BP_Passive02"
+      ]
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_Passive_SkillTree01",
+      "Offset": 12455
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_AllDamageTypeAddedRatio",
+      "Offset": 12911
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_Passive_SkillTree03",
+      "Offset": 12992
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_00_BP_Passive02",
+      "Offset": 13132
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_00_Passive01_InsertMark",
+      "Offset": 13349
+    },
+    {
+      "UniqueName": "MAvatar_Xueyi_SkillRank01_InserteDamageRatio",
+      "Offset": 13499
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 409
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 841
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1533
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_Skill03_EnterReady",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2017
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2347
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2798
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_Skill03_StancePreCalc",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3679
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_PassiveSkill01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3806
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_PassiveAtk_Insert01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6465
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_PassiveAtk_Insert02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7216
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_00_SkillMazeInLevel",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8773
+    },
+    {
+      "UniqueName": "Avatar_Xueyi_SkillTree01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 9175
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "MAvatar_Welt_00_Rank01_Enhance",
+      "Offset": 5499
+    },
+    {
+      "UniqueName": "MAvatar_Welt_00_BPSkill_SpeedDown",
+      "Offset": 5535
+    },
+    {
+      "UniqueName": "MAvatar_Welt_00_SkillTree01_AllDamageTypeTakenRatio",
+      "Offset": 5651
+    },
+    {
+      "UniqueName": "Avatar_Welt_00_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Avatar_Welt_00_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 417
+    },
+    {
+      "UniqueName": "Avatar_Welt_00_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 823
+    },
+    {
+      "UniqueName": "Avatar_Welt_00_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1073
+    },
+    {
+      "UniqueName": "Avatar_Welt_00_Skill03_EnterReady",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3045
+    },
+    {
+      "UniqueName": "Avatar_Welt_00_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3374
+    },
+    {
+      "UniqueName": "Avatar_Welt_00_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3713
+    },
+    {
+      "UniqueName": "Avatar_Welt_00_PassiveSkill01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4355
+    },
+    {
+      "UniqueName": "Avatar_Welt_00_SkillMazeInLevel",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4995
+    },
+    {
+      "UniqueName": "Avatar_Welt_SkillTree02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5243
+    },
+    {
+      "UniqueName": "Avatar_Welt_SkillTree03",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5325
+    }
+  ]
+}

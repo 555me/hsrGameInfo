@@ -1,0 +1,219 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "StanceBreakState",
+      "Offset": 19,
+      "Dependency": [
+        "StanceBreakState_Effect",
+        "MonsterAllDamageReduce"
+      ]
+    },
+    {
+      "UniqueName": "RedStanceState",
+      "Offset": 328
+    },
+    {
+      "UniqueName": "MonsterAllDamageReduce",
+      "Offset": 356
+    },
+    {
+      "UniqueName": "StanceBreakState_Effect",
+      "Offset": 420
+    },
+    {
+      "UniqueName": "StageAbility_MazeCommon_EnterBattle_StanceBreakModifier",
+      "Offset": 3774
+    },
+    {
+      "UniqueName": "OneMore",
+      "Offset": 3783
+    },
+    {
+      "UniqueName": "OneMorePerTurn",
+      "Offset": 3807,
+      "Dependency": [
+        "OneMore"
+      ]
+    },
+    {
+      "UniqueName": "MoreOneMorePerTurn",
+      "Offset": 3993,
+      "Dependency": [
+        "OneMore"
+      ]
+    },
+    {
+      "UniqueName": "MCommon_DOT_Bleed",
+      "Offset": 4179
+    },
+    {
+      "UniqueName": "MCommon_DOT_Burn",
+      "Offset": 4747
+    },
+    {
+      "UniqueName": "MCommon_DOT_Poison",
+      "Offset": 5400
+    },
+    {
+      "UniqueName": "MCommon_DOT_Electric",
+      "Offset": 6092
+    },
+    {
+      "UniqueName": "MCommon_DOT_Tear",
+      "Offset": 6762
+    },
+    {
+      "UniqueName": "MCommon_HOT_HPByMaxHP",
+      "Offset": 7984
+    },
+    {
+      "UniqueName": "MCommon_HOT_SP",
+      "Offset": 8174
+    },
+    {
+      "UniqueName": "BlockDamage_Turn",
+      "Offset": 8249
+    },
+    {
+      "UniqueName": "BlockDamage_Count",
+      "Offset": 8273
+    },
+    {
+      "UniqueName": "MCommon_CTRL_Taunt",
+      "Offset": 8584
+    },
+    {
+      "UniqueName": "MCommon_CTRL_Stun",
+      "Offset": 8883,
+      "Dependency": [
+        "Stun_Effect"
+      ]
+    },
+    {
+      "UniqueName": "Stun_Effect",
+      "Offset": 9249
+    },
+    {
+      "UniqueName": "MCommon_CTRL_Frozen",
+      "Offset": 9277
+    },
+    {
+      "UniqueName": "MCommon_Confine",
+      "Offset": 10638
+    },
+    {
+      "UniqueName": "MCommon_Entangle",
+      "Offset": 11099
+    },
+    {
+      "UniqueName": "MCommon_MindControl",
+      "Offset": 14534,
+      "Dependency": [
+        "MCommon_MindControl_DisableAction",
+        "MCommon_MindControl_Target",
+        "MCommon_MindControl_LockHP",
+        "MCommon_MindControl_Damage"
+      ]
+    },
+    {
+      "UniqueName": "MCommon_MindControl_DisableAction",
+      "Offset": 15923
+    },
+    {
+      "UniqueName": "MCommon_MindControl_Target",
+      "Offset": 15956
+    },
+    {
+      "UniqueName": "MCommon_MindControl_Damage",
+      "Offset": 16075
+    },
+    {
+      "UniqueName": "MCommon_MindControl_LockHP",
+      "Offset": 16794
+    },
+    {
+      "UniqueName": "MCommon_CTRL_Crazy",
+      "Offset": 16829
+    },
+    {
+      "UniqueName": "MCommon_BlackBlood",
+      "Offset": 17237
+    },
+    {
+      "UniqueName": "MCommon_BlackBlood_Stackable",
+      "Offset": 17322
+    },
+    {
+      "UniqueName": "MCommon_Shake_IgnoreImmune",
+      "Offset": 17726
+    },
+    {
+      "UniqueName": "MCommon_BAN_Heal",
+      "Offset": 18185
+    },
+    {
+      "UniqueName": "MCommon_BAN_Silence",
+      "Offset": 18212
+    },
+    {
+      "UniqueName": "MCommon_Stealth",
+      "Offset": 18265
+    },
+    {
+      "UniqueName": "MCommon_Servant",
+      "Offset": 18291
+    },
+    {
+      "UniqueName": "MCommon_Protect_Shield",
+      "Offset": 18470
+    },
+    {
+      "UniqueName": "MCommon_Protect_SkillRetarget",
+      "Offset": 18837
+    },
+    {
+      "UniqueName": "MCommon_Endurance",
+      "Offset": 18880
+    },
+    {
+      "UniqueName": "MCommon_LockHP",
+      "Offset": 18900
+    },
+    {
+      "UniqueName": "MCommon_Element_Bleed",
+      "Offset": 18938
+    },
+    {
+      "UniqueName": "MCommon_Element_Frozen",
+      "Offset": 20276
+    },
+    {
+      "UniqueName": "MCommon_Element_Burn",
+      "Offset": 21471
+    },
+    {
+      "UniqueName": "MCommon_Element_Poison",
+      "Offset": 21921
+    },
+    {
+      "UniqueName": "MCommon_Element_Electric",
+      "Offset": 22472
+    },
+    {
+      "UniqueName": "MCommon_Element_Confine",
+      "Offset": 22949
+    },
+    {
+      "UniqueName": "MCommon_Element_Entangle",
+      "Offset": 23404
+    },
+    {
+      "UniqueName": "MCommon_ChallengeTurnLimit",
+      "Offset": 26188
+    },
+    {
+      "UniqueName": "MCommon_GM_Revive",
+      "Offset": 26692
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "$type": "RPG.GameCore.RtLevelGroupInfo",
+  "GroupName": "NPC",
+  "AreaAnchorName": "LevelArea_P10301_F10301001_G154",
+  "SaveType": "Reset",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
+  "LoadOnInitial": true,
+  "ValueSource": {},
+  "ConflictIDList": [],
+  "IsHoyoGroup": true,
+  "HoYoGroupType": "Container",
+  "ConflictWhiteList": [],
+  "TagContainer": {},
+  "AnchorList": [
+    {
+      "Name": "Anchor1",
+      "ID": 1,
+      "PosX": 121.0874,
+      "PosY": -29.608,
+      "PosZ": 150.3399
+    },
+    {
+      "Name": "Anchor2",
+      "ID": 2,
+      "PosX": 121.118,
+      "PosY": -29.65,
+      "PosZ": 143.994
+    }
+  ],
+  "MonsterList": [],
+  "PropList": [],
+  "DistrictList": [],
+  "WaypointList": [],
+  "PathwayList": [],
+  "BattleAreaList": [],
+  "NPCList": [
+    {
+      "NPCID": 13309,
+      "ValueSource": {},
+      "DialogueGroups": [],
+      "ServerInteractVerificationIDList": [],
+      "BoardShowList": [
+        1,
+        64,
+        128
+      ],
+      "TalkDialogGroupIDList": [],
+      "DefaultIdleFreeStyleMotionID": 100040210,
+      "InitialHiddenNodeList": [],
+      "OverrideBehaviorType": "DreamlandActor",
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {},
+      "Name": "NPC1",
+      "RotY": 280.3967,
+      "ID": 400001,
+      "PosX": 122.097,
+      "PosY": -30.48231,
+      "PosZ": 144.132
+    }
+  ],
+  "CrowdList": [],
+  "PedestrianList": [],
+  "AudienceList": [],
+  "SmartObjectList": [
+    {
+      "SlotList": [
+        {
+          "PlayeMode": "Loop",
+          "PointList": [
+            {
+              "PosX": -14.3988,
+              "PosY": -0.543968,
+              "PosZ": 0.426392,
+              "RestartMode": "RestartFromSO"
+            },
+            {
+              "RotY": 3.852037E-34
+            }
+          ]
+        }
+      ],
+      "CommonPointList": [
+        {
+          "PosY": -2.8952943E-23
+        },
+        {
+          "ID": 1
+        }
+      ],
+      "Name": "SmartObject1",
+      "ID": 1,
+      "PosX": 137.0445,
+      "PosY": -29.93833,
+      "PosZ": 150.0051
+    }
+  ]
+}

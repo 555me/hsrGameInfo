@@ -1,0 +1,78 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "Avatar_AetherDivide_ExtraHeight",
+      "Offset": 5687
+    },
+    {
+      "UniqueName": "MAvatar_AML_Elite01_00_CD",
+      "Offset": 5714
+    },
+    {
+      "UniqueName": "MAvatar_AML_Elite01_00_Damage",
+      "Offset": 5781
+    },
+    {
+      "UniqueName": "MAvatar_AML_Elite01_00_Passive_Damage",
+      "Offset": 5837
+    },
+    {
+      "UniqueName": "MAvatar_AML_Elite01_00_Critical",
+      "Offset": 5926
+    },
+    {
+      "UniqueName": "MAvatar_AML_Elite01_00_Skill02_Kill",
+      "Offset": 6165
+    },
+    {
+      "UniqueName": "Avatar_AetherDivide_AML_Elite01_00_Bonus",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Avatar_AetherDivide_AML_Elite01_00_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 278
+    },
+    {
+      "UniqueName": "Avatar_AetherDivide_AML_Elite01_00_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 590
+    },
+    {
+      "UniqueName": "Avatar_AetherDivide_AML_Elite01_00_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1191
+    },
+    {
+      "UniqueName": "Avatar_AetherDivide_AML_Elite01_00_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1525
+    },
+    {
+      "UniqueName": "Avatar_AetherDivide_AML_Elite01_00_Skill03_EnterReady",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3514
+    },
+    {
+      "UniqueName": "Avatar_AetherDivide_AML_Elite01_00_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3811
+    },
+    {
+      "UniqueName": "Avatar_AetherDivide_AML_Elite01_00_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4109
+    },
+    {
+      "UniqueName": "Avatar_AetherDivide_AML_Elite01_00_PassiveSkill01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4665
+    },
+    {
+      "UniqueName": "Avatar_AetherDivide_AML_Elite01_00_SkillMazeInLevel",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5598
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "MAvatar_Gallagher_00_PointB3_AddFireBreakDamageModifier",
+      "Offset": 6647
+    },
+    {
+      "UniqueName": "MWAvatar_Gallagher_00_Skill02_StatusResModifier",
+      "Offset": 6753
+    },
+    {
+      "UniqueName": "MWAvatar_Gallagher_00_Skill03_DeBuffModifier",
+      "Offset": 6856
+    },
+    {
+      "UniqueName": "MAvatar_Gallagher_00_NormalAttckAlter_Enable",
+      "Offset": 7227
+    },
+    {
+      "UniqueName": "MWAvatar_Gallagher_00_Skill11_AttackDownModifier",
+      "Offset": 7887
+    },
+    {
+      "UniqueName": "MAvatar_Gallagher_00_Passive_SkillTree01",
+      "Offset": 7976
+    },
+    {
+      "UniqueName": "MAvatar_Gallagher_00_HealRatioAddedRatio",
+      "Offset": 8438
+    },
+    {
+      "UniqueName": "Avatar_Gallagher_00_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Avatar_Gallagher_00_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 384
+    },
+    {
+      "UniqueName": "Avatar_Gallagher_00_Skill11_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 908
+    },
+    {
+      "UniqueName": "Avatar_Gallagher_00_Skill11_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1344
+    },
+    {
+      "UniqueName": "Avatar_Gallagher_00_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2255
+    },
+    {
+      "UniqueName": "Avatar_Gallagher_00_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2635
+    },
+    {
+      "UniqueName": "Avatar_Gallagher_00_Skill03_EnterReady",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3125
+    },
+    {
+      "UniqueName": "Avatar_Gallagher_00_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3455
+    },
+    {
+      "UniqueName": "Avatar_Gallagher_00_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3855
+    },
+    {
+      "UniqueName": "Avatar_Gallagher_00_PassiveSkill01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4445
+    },
+    {
+      "UniqueName": "Avatar_Gallagher_00_SkillMazeInLevel",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5475
+    }
+  ]
+}

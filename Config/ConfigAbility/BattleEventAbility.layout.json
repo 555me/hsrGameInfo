@@ -1,0 +1,551 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "Challenge_Camera_AllTeam_Temp_1",
+      "Offset": 68379
+    },
+    {
+      "UniqueName": "Challenge_Camera_AllTeam_Temp_2",
+      "Offset": 68725
+    },
+    {
+      "UniqueName": "MDF_RogueDLCAchievementListener",
+      "Offset": 68915
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Xianzhou_01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Xianzhou_01_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1184
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Xianzhou_01_Camera",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1631
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Xianzhou_02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1784
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Xianzhou_03",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3641
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Xianzhou_04",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4383
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Xianzhou_05",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5173
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Xianzhou_05_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6394
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Xianzhou_06",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6564
+    },
+    {
+      "UniqueName": "BattleEventAbility_ChallengeTurnLimit",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7784
+    },
+    {
+      "UniqueName": "BattleEventAbility_PunkLordTurnLimit",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7871
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueChallengeTurnLimit",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7948
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8031
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8345
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_03",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8659
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_04",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8973
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_05",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 9287
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_06",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 9601
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_07",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 10271
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_08",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 10941
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_09",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 11611
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_10",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 12281
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_11",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 12951
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_12",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 13665
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_13",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 14380
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_14",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 15096
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_15",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 15811
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_16",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 16525
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_17",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 16844
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_18",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 17163
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_19",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 17482
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_20",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 17801
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_21",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 18121
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_22",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 18469
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_23",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 18817
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_24",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 19165
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_25",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 19513
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_New_01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 19833
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_New_02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 20512
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_New_03",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 21338
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_New_04",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 21978
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_New_05",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 22497
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_New_06",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 23031
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_New_07",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 23868
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Group_01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 24410
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Group_02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 25042
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 25791
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 26661
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_03",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 27584
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_04",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 28325
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_05",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 28950
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_06",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 29701
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_07",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 30425
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_08",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 31430
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_09",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 32436
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_10",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 33191
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_11",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 34789
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_12",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 35332
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_13",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 35974
+    },
+    {
+      "UniqueName": "Modifier_BattleEventAbility_Challenge_Month_13_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 37151
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_14",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 37699
+    },
+    {
+      "UniqueName": "Modifier_BattleEventAbility_Challenge_Month_14_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 38975
+    },
+    {
+      "UniqueName": "Modifier_BattleEventAbility_Challenge_Deathrattle_Camera",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 39792
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_Month_15",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 39969
+    },
+    {
+      "UniqueName": "Modifier_BattleEventAbility_Challenge_Month_15_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 41245
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_03_temp",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 42240
+    },
+    {
+      "UniqueName": "BattleEventAbility_Challenge_04_temp",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 42748
+    },
+    {
+      "UniqueName": "BattleEventAbility_Camear_SelectLightTeamEntity",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 43502
+    },
+    {
+      "UniqueName": "BattleEventAbility_Camear_SelectDarkTeamEntity",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 44347
+    },
+    {
+      "UniqueName": "BattleEventAbility_Camear_AllLightTeam",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 45197
+    },
+    {
+      "UniqueName": "BattleEventAbility_Camear_AllDarkTeam",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 46068
+    },
+    {
+      "UniqueName": "BattleEventAbility_Camear_AllDarkTeam_RemoveModifier",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 46692
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueRage",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 46938
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueRage_Enhance",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 47688
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCReinforce",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 48851
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCSummonMonsterEvent01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 49586
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCSummonMonsterEvent01_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 50030
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCSummonMonsterEvent02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 50412
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCSummonMonsterEvent02_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 50856
+    },
+    {
+      "UniqueName": "BattleEventAbility_SummonMonsterInfinite",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 51280
+    },
+    {
+      "UniqueName": "BattleEventAbility_SummonMonsterInfinite2",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 51749
+    },
+    {
+      "UniqueName": "BattleEventAbility_SummonMonsterInfinite_Fuyan",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 52222
+    },
+    {
+      "UniqueName": "BattleEventAbility_SummonMonsterInfinite_Fuyan_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 52849
+    },
+    {
+      "UniqueName": "BattleEventAbility_SummonMonsterInfinite_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 53264
+    },
+    {
+      "UniqueName": "BattleEventAbility_SummonMonsterInfinite_Insert2",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 53666
+    },
+    {
+      "UniqueName": "BattleEventAbility_SummonMonsterInfinite_Camera",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 54068
+    },
+    {
+      "UniqueName": "BattleEventAbility_SummonMonsterInfinite_Fuyan_Camera",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 54220
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCHunting",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 54405
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCHunting_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 54793
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCHunting_Upgrade1",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 56156
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCHunting_Upgrade2",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 56573
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCHunting_Camera",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 56926
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCRuin",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 57600
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCRuin_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 58010
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCRuin_Upgrade1",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 58848
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCRuin_Upgrade2",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 59300
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCRuin_Camera",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 59648
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCSandworm",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 60236
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCSandworm_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 60727
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCSandworm_Upgrade1",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 63744
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCSandworm_Upgrade2",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 64145
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCSandworm_Camera",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 64788
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCAbundance",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 65403
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCAbundance_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 65810
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCAbundance_Upgrade1",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 66828
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCAbundance_Upgrade2",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 67162
+    },
+    {
+      "UniqueName": "BattleEventAbility_RogueDLCAbundance_Camera",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 67632
+    }
+  ]
+}

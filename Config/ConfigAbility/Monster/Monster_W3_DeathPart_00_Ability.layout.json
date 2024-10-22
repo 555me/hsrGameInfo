@@ -1,0 +1,57 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "W3_DeathPart_Sgin_Modifier",
+      "Offset": 6407
+    },
+    {
+      "UniqueName": "Monster_W3_DeathPart_00_ListenDie",
+      "Offset": 6557
+    },
+    {
+      "UniqueName": "Monster_W3_DeathPart_00_PassiveSkillInitiate",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Monster_W3_DeathPart_00_PassiveSkillInitiate_Main2",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1267
+    },
+    {
+      "UniqueName": "Monster_W3_DeathPart_00_SKill01_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2304
+    },
+    {
+      "UniqueName": "Monster_W3_DeathPart_00_SKill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2493
+    },
+    {
+      "UniqueName": "Monster_W3_DeathPart_00_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3872
+    },
+    {
+      "UniqueName": "Monster_W3_DeathPart_00_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4025
+    },
+    {
+      "UniqueName": "Monster_W3_DeathPart_00_Skill03_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4169
+    },
+    {
+      "UniqueName": "Monster_W3_DeathPart_00_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4481
+    },
+    {
+      "UniqueName": "Monster_W3_DeathPart_00_Skill03_Phase03",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5463
+    }
+  ]
+}

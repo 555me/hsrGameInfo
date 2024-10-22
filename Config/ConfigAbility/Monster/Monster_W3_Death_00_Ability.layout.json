@@ -1,0 +1,266 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "MMonster_W3_Death_00_Mainline_Battle1_CatchID1",
+      "Offset": 23581
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_HitTarget",
+      "Offset": 23612
+    },
+    {
+      "UniqueName": "Modifier_W3_Death_00_PhaseController_LockHP",
+      "Offset": 23720,
+      "Dependency": [
+        "MMonster_W3_Death_00_Minions_Mark_PhaseChange"
+      ]
+    },
+    {
+      "UniqueName": "MMonster_W3_Death_00_Minions_Mark_PhaseChange",
+      "Offset": 25475
+    },
+    {
+      "UniqueName": "Modifier_W3_Death_00_BonusAttackHandler",
+      "Offset": 25520,
+      "Dependency": [
+        "Monster_W3_Death_00_BattleAlert",
+        "Modifier_W3_Death_00_BonusAttackCounter"
+      ]
+    },
+    {
+      "UniqueName": "Modifier_W3_Death_00_BonusAttackCounter",
+      "Offset": 25800
+    },
+    {
+      "UniqueName": "Modifier_W3_Death_00_HuntingMode",
+      "Offset": 26288,
+      "Dependency": [
+        "Modifier_W3_Death_00_HuntingMode0",
+        "Modifier_W3_Death_00_BonusAttackHandler"
+      ]
+    },
+    {
+      "UniqueName": "Modifier_W3_Death_00_HuntingMode0",
+      "Offset": 27256
+    },
+    {
+      "UniqueName": "Modifier_W3_Death_00_HuntingMode1",
+      "Offset": 27291
+    },
+    {
+      "UniqueName": "Modifier_W3_Death_00_HuntingMode2",
+      "Offset": 27392
+    },
+    {
+      "UniqueName": "Modifier_W3_Death_00_HuntingMode3",
+      "Offset": 27493
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_BattleAlert",
+      "Offset": 27592
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_ListenBreak",
+      "Offset": 27940
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_LockHP",
+      "Offset": 31505,
+      "Dependency": [
+        "Death_Control_Modifier",
+        "W3_Death_00_AddMoifierSuccess",
+        "W3_Death_00_AddDeathSuccess"
+      ]
+    },
+    {
+      "UniqueName": "W3_Death_00_AddMoifierSuccess",
+      "Offset": 31803
+    },
+    {
+      "UniqueName": "W3_Death_00_AddDeathSuccess",
+      "Offset": 31912
+    },
+    {
+      "UniqueName": "Death_Control_Modifier",
+      "Offset": 31936,
+      "Dependency": [
+        "M_Death_CTRL"
+      ]
+    },
+    {
+      "UniqueName": "Death_Control_Modifier_MainLine",
+      "Offset": 32511,
+      "Dependency": [
+        "M_Death_CTRL"
+      ]
+    },
+    {
+      "UniqueName": "M_Death_CTRL",
+      "Offset": 33066,
+      "Dependency": [
+        "Monster_W3_Death_00_SummonerSpeed0",
+        "Monster_W3_Death_00_SummonerSpeed0",
+        "Monster_W3_Death_00_IsSummoner"
+      ]
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_SummonerSpeed0",
+      "Offset": 33609
+    },
+    {
+      "UniqueName": "Modifier_W3_Death_00_Attack_Sign",
+      "Offset": 33797
+    },
+    {
+      "UniqueName": "Modifier_W3_Death_00_SkillTypeDisable",
+      "Offset": 34154
+    },
+    {
+      "UniqueName": "Modifier_W3_Death_00_ChargeShoot",
+      "Offset": 34239,
+      "Dependency": [
+        "Monster_W3_Death_00_HasUseSkill",
+        "Modifier_W3_Death_00_Attack_Sign"
+      ]
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_HasUseSkill",
+      "Offset": 34699
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_AllDamageUp",
+      "Offset": 34732
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_IsSummoner",
+      "Offset": 35407
+    },
+    {
+      "UniqueName": "Death_UseSkill07_Modifier",
+      "Offset": 35434
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill06_Charge_CharacterChangePhase",
+      "Offset": 35491
+    },
+    {
+      "UniqueName": "MMonster_W3_Deathpart_Appear",
+      "Offset": 36119
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_PassiveSkill_BGM",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_PassiveSkillInitiate",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 344
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2589
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2844
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5658
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 5881
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6207
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6375
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill04_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6628
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill04_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6796
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill05_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7777
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill05_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8060
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill06_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 12065
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill06_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 12295
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill07_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 13771
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill07_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 14224
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill08_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 16982
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill08_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 17070
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Phase1T2",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 17629
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill10_Insert",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 18254
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill10_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 18497
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill12_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 20496
+    },
+    {
+      "UniqueName": "Monster_W3_Death_00_Skill12_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 21394
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "MWAvatar_Ren_Attack_Transfer",
+      "Offset": 9309,
+      "Dependency": [
+        "MWAvatar_Ren_Rank02"
+      ]
+    },
+    {
+      "UniqueName": "MWAvatar_Ren_Attack",
+      "Offset": 9702
+    },
+    {
+      "UniqueName": "MWAvatar_Ren_Qi",
+      "Offset": 9766
+    },
+    {
+      "UniqueName": "MWAvatar_Ren_Skill03_Listen",
+      "Offset": 10615
+    },
+    {
+      "UniqueName": "MWAvatar_Ren_SkillTree01",
+      "Offset": 10660
+    },
+    {
+      "UniqueName": "MWAvatar_Ren_SkillTree02",
+      "Offset": 10733
+    },
+    {
+      "UniqueName": "MWAvatar_Ren_SkillTree03",
+      "Offset": 10904
+    },
+    {
+      "UniqueName": "MWAvatar_Ren_Rank04",
+      "Offset": 10959
+    },
+    {
+      "UniqueName": "MWAvatar_Ren_Rank04_Add",
+      "Offset": 11131,
+      "Dependency": [
+        "MWAvatar_Ren_Rank04"
+      ]
+    },
+    {
+      "UniqueName": "MWAvatar_Ren_Rank02",
+      "Offset": 11233
+    },
+    {
+      "UniqueName": "MWAvatar_Ren_LoseHPPreShow",
+      "Offset": 11353
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 330
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Skill11_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 810
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Skill11_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 1282
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2123
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2432
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Bonus",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2775
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Skill03_EnterReady",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2875
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3220
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 3479
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_PassiveSkill01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4629
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Passive1Atk_Ability",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7644
+    },
+    {
+      "UniqueName": "Avatar_Ren_00_Passive1Atk02_Ability",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7982
+    },
+    {
+      "UniqueName": "Avatar_Ren_SkillMazeInLevel",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8857
+    },
+    {
+      "UniqueName": "Avatar_Ren_Rank06",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 9257
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "BakeInfoLayouts": [
+    {
+      "UniqueName": "MWAvatar_PlayerGirl_10_Rank06_Stack",
+      "Offset": 12208
+    },
+    {
+      "UniqueName": "MWAvatar_PlayerGirl_10_WeaponCharge_Free",
+      "Offset": 12373
+    },
+    {
+      "UniqueName": "MWAvatar_PlayerGirl_10_WeaponCharge",
+      "Offset": 12410
+    },
+    {
+      "UniqueName": "MWAvatar_PlayerGirl_10_DamageResistance",
+      "Offset": 12704
+    },
+    {
+      "UniqueName": "MAvatar_PlayerGirl_10_DamageResistance_Team",
+      "Offset": 13315
+    },
+    {
+      "UniqueName": "MWAvatar_PlayerGirl_10_Shield",
+      "Offset": 13402
+    },
+    {
+      "UniqueName": "MWAvatar_PlayerGirl_Weapon_Effect",
+      "Offset": 13783
+    },
+    {
+      "UniqueName": "Avatar_PlayerGirl_10_Skill01_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2
+    },
+    {
+      "UniqueName": "Avatar_PlayerGirl_10_Skill01_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 368
+    },
+    {
+      "UniqueName": "Avatar_PlayerGirl_10_Skill11_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2312
+    },
+    {
+      "UniqueName": "Avatar_PlayerGirl_10_Skill11_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 2569
+    },
+    {
+      "UniqueName": "Avatar_PlayerGirl_10_Skill02_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4443
+    },
+    {
+      "UniqueName": "Avatar_PlayerGirl_10_Skill02_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 4820
+    },
+    {
+      "UniqueName": "Avatar_PlayerGirl_10_Skill03_EnterReady",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 6634
+    },
+    {
+      "UniqueName": "Avatar_PlayerGirl_10_Skill03_Phase01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7201
+    },
+    {
+      "UniqueName": "Avatar_PlayerGirl_10_Skill03_Phase02",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 7720
+    },
+    {
+      "UniqueName": "Avatar_PlayerGirl_10_PassiveSkill01",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 8823
+    },
+    {
+      "UniqueName": "Avatar_PlayerGirl_10_SkillMazeInLevel",
+      "TypeId": "TypeId_TurnBasedAbilityConfig",
+      "Offset": 11487
+    }
+  ]
+}
