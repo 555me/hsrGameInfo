@@ -233,7 +233,7 @@
     {
       "Skill": "Skill02",
       "AbilityList": [
-        "Boss_Cocolia_RL_Skill02_Phase01_Camera",
+        "Boss_Cocolia_IF_Skill02_Phase01_Camera",
         "Boss_Cocolia_IF_02_Skill02_Phase01",
         "Boss_Cocolia_IF_02_Skill02_Phase02"
       ]

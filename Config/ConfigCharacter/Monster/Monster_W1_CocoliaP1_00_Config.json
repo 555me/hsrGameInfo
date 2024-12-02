@@ -48,17 +48,7 @@
         "TargetType": "AllEnemy"
       },
       "ReadyAnimState": "StandBy",
-      "EntryAbility": "Boss_Cocolia_P1_Skill03_Phase01",
-      "ParaMapping": [
-        {
-          "AbilityName": "Boss_Cocolia_P1_Skill03_Phase02",
-          "DynamicValues": {
-            "Skill03_Para1_DamagePercentage": "First",
-            "Skill03_Para2_DamagePercentage": "Second"
-          },
-          "WriteStance": true
-        }
-      ]
+      "EntryAbility": "Boss_Cocolia_P1_Skill03_Phase01"
     },
     {
       "Name": "Skill04",
@@ -78,15 +68,7 @@
         "TargetType": "Caster"
       },
       "ReadyAnimState": "StandBy",
-      "EntryAbility": "Boss_Cocolia_P1_Skill05_Phase01",
-      "ParaMapping": [
-        {
-          "AbilityName": "Boss_Cocolia_P1_Skill05_Phase02",
-          "DynamicValues": {
-            "Skill05_ModifierDamageUpValue": "First"
-          }
-        }
-      ]
+      "EntryAbility": "Boss_Cocolia_P1_Skill05_Phase01"
     },
     {
       "Name": "Skill06",
@@ -96,15 +78,7 @@
         "TargetType": "EnemySelect"
       },
       "ReadyAnimState": "StandBy",
-      "EntryAbility": "Boss_Cocolia_P1_Skill06_Phase01",
-      "ParaMapping": [
-        {
-          "AbilityName": "Boss_Cocolia_P1_Skill06_Phase02",
-          "DynamicValues": {
-            "Skill06_Para1_DamagePercentage": "First"
-          }
-        }
-      ]
+      "EntryAbility": "Boss_Cocolia_P1_Skill06_Phase01"
     },
     {
       "Name": "Skill07",
@@ -261,8 +235,31 @@
   ],
   "DynamicValues": {
     "Values": {
+      "-56289053": {
+        "ReadInfo": {
+          "Type": "None",
+          "Str": "Skill03"
+        }
+      },
+      "734867428": {
+        "ReadInfo": {
+          "Type": "SkillTreeParam",
+          "Str": "Skill03"
+        }
+      },
+      "1207199354": {
+        "ReadInfo": {
+          "Type": "None",
+          "Str": "Skill05"
+        }
+      },
       "1991402894": {},
-      "-1865286925": {},
+      "-1122549516": {
+        "ReadInfo": {
+          "Type": "None",
+          "Str": "Skill06"
+        }
+      },
       "-190305622": {
         "ReadInfo": {
           "Type": "None",

@@ -96,7 +96,7 @@
         "TargetType": "AllEnemy"
       },
       "ReadyAnimState": "StandBy",
-      "EntryAbility": "Monster_W3_Death_00_Skill07_Phase01"
+      "EntryAbility": "Monster_W3_Death_00_Skill07_Phase01_FightFest"
     },
     {
       "Name": "Skill08",
@@ -209,7 +209,7 @@
     {
       "Skill": "Skill07",
       "AbilityList": [
-        "Monster_W3_Death_00_Skill07_Phase01",
+        "Monster_W3_Death_00_Skill07_Phase01_FightFest",
         "Monster_W3_Death_00_Skill07_Phase02",
         "Monster_W3_Death_00_Skill07_Camera"
       ]

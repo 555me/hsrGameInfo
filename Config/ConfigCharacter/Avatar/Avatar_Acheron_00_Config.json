@@ -204,8 +204,7 @@
       "SkillType": "Ultra",
       "UseType": "SelectEntity",
       "TargetInfo": {
-        "TargetType": "EnemySelect",
-        "SubTargetType": "TargetAllTeammate"
+        "TargetType": "AllEnemy"
       },
       "ReadyAnimState": "Skill03_Ready",
       "EntryAbility": "Avatar_Acheron_00_Skill03_Phase01",
@@ -699,7 +698,8 @@
       },
       "-1841405607": {},
       "75657160": {},
-      "-545449577": {}
+      "-545449577": {},
+      "-489120839": {}
     }
   },
   "WeaponType": "WP_Bullet",

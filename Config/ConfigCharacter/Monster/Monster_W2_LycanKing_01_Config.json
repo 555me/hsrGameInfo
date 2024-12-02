@@ -148,7 +148,8 @@
     "Monster_Common_PassiveSkill_StanceBreak_Action",
     "Monster_W2_LycanKing_00_SkillP02",
     "Monster_W2_LycanKing_00_SkillP03",
-    "Monster_W2_LycanKing_00_MainStory"
+    "Monster_W2_LycanKing_00_MainStory",
+    "BattleEventAbility_Monster_W2_LycanKing_00_StanceDamage"
   ],
   "SkillAbilityList": [
     {
@@ -390,6 +391,8 @@
     }
   },
   "CustomValues": {
+    "WolfSummon01": 203201003,
+    "WolfSummon02": 203202004,
     "AIFlag": 1,
     "PhaseFlag": 1,
     "Wolf_AttackCount": 0,

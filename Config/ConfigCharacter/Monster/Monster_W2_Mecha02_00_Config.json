@@ -51,20 +51,10 @@
         "TargetType": "Caster"
       },
       "EntryAbility": "Monster_Common_PassiveSkill_StanceBreak_Action"
-    },
-    {
-      "Name": "PassiveSkill_Suicide",
-      "SkillType": "Passive",
-      "UseType": "Passive",
-      "TargetInfo": {
-        "TargetType": "Caster"
-      },
-      "EntryAbility": "Monster_Common_Suicide_StanceBreak"
     }
   ],
   "AbilityList": [
-    "Monster_Common_PassiveSkill_StanceBreak_Action",
-    "Monster_Common_Suicide_StanceBreak"
+    "Monster_Common_PassiveSkill_StanceBreak_Action"
   ],
   "SkillAbilityList": [
     {

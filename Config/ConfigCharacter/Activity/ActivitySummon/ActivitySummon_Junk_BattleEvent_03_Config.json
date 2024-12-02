@@ -4,28 +4,7 @@
   "CastShadow": true,
   "FormationType": "Team",
   "LocationType": "First",
-  "CustomTeamFormationConfigs": [
-    {
-      "ActiveCameraStates": [
-        "SelectSummonUnit"
-      ],
-      "ActiveTeamFormationTypes": [
-        "LightTeamNormal"
-      ],
-      "FormationType": "Follow",
-      "LocationConfig": {
-        "Width": 0.8,
-        "FormationFollowOffset": {
-          "X": 1.2,
-          "Y": 0,
-          "Z": 0
-        }
-      }
-    }
-  ],
   "DamageType": "Wind",
-  "SyncPropertyFromCaster": true,
-  "SyncPropertyExceptList": [],
   "IsPlayerControlled": true,
   "AIPath": "Config/ConfigAI/Avatar_ComplexSkilll_AutoFight_AI.json",
   "SomatoType": "MiddleFakeAvatar",

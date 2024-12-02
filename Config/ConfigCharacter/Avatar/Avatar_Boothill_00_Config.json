@@ -256,7 +256,9 @@
                   "$type": "RPG.GameCore.TargetAlias",
                   "Alias": "ParamEntity"
                 },
-                "ModifierName": "MAvatar_Boothill_00_DuelTarget"
+                "ModifierName": {
+                  "Value": "MAvatar_Boothill_00_DuelTarget"
+                }
               }
             }
           ]

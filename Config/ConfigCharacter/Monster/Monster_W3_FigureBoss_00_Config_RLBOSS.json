@@ -58,7 +58,7 @@
       "TargetInfo": {
         "TargetType": "Caster"
       },
-      "EntryAbility": "Monster_W3_FigureBoss_00_PassiveSkill01_Insert"
+      "EntryAbility": "Monster_W3_FigureBoss_00_PassiveSkill03"
     },
     {
       "Name": "Skill05",
@@ -67,7 +67,7 @@
       "TargetInfo": {
         "TargetType": "Caster"
       },
-      "EntryAbility": "Monster_W3_FigureBoss_00_PassiveSkill02_Insert"
+      "EntryAbility": "Monster_W3_FigureBoss_00_PassiveSkill05"
     },
     {
       "Name": "Skill06",
@@ -75,10 +75,14 @@
       "UseType": "Passive",
       "TargetInfo": {
         "TargetType": "Caster"
-      }
+      },
+      "EntryAbility": "Monster_W3_FigureBoss_00_PassiveSkill06"
     }
   ],
-  "AbilityList": [],
+  "AbilityList": [
+    "Monster_W3_FigureBoss_00_PassiveSkill01_Insert",
+    "Monster_W3_FigureBoss_00_PassiveSkill02_Insert"
+  ],
   "SkillAbilityList": [
     {
       "Skill": "Passive_BGM",
@@ -101,18 +105,20 @@
     {
       "Skill": "Skill03",
       "AbilityList": [
-        "Monster_W3_FigureBoss_00_PassiveSkill01_Insert"
+        "Monster_W3_FigureBoss_00_PassiveSkill03"
       ]
     },
     {
       "Skill": "Skill05",
       "AbilityList": [
-        "Monster_W3_FigureBoss_00_PassiveSkill02_Insert"
+        "Monster_W3_FigureBoss_00_PassiveSkill05"
       ]
     },
     {
       "Skill": "Skill06",
-      "AbilityList": []
+      "AbilityList": [
+        "Monster_W3_FigureBoss_00_PassiveSkill06"
+      ]
     }
   ],
   "DynamicValues": {

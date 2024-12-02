@@ -261,7 +261,9 @@
                   "$type": "RPG.GameCore.TargetAlias",
                   "Alias": "ParamEntity"
                 },
-                "ModifierName": "M_Feixiao_00_UltraTarget"
+                "ModifierName": {
+                  "Value": "M_Feixiao_00_UltraTarget"
+                }
               }
             }
           ]
@@ -335,7 +337,9 @@
                   "$type": "RPG.GameCore.TargetAlias",
                   "Alias": "ParamEntity"
                 },
-                "ModifierName": "M_Feixiao_00_UltraTarget"
+                "ModifierName": {
+                  "Value": "M_Feixiao_00_UltraTarget"
+                }
               }
             }
           ]

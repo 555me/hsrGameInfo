@@ -120,15 +120,6 @@
       "EntryAbility": "Monster_SW_Boss_01_Passive01"
     },
     {
-      "Name": "PassiveSkill_Suicide",
-      "SkillType": "Passive",
-      "UseType": "Passive",
-      "TargetInfo": {
-        "TargetType": "Caster"
-      },
-      "EntryAbility": "Monster_Common_Suicide_StanceBreak"
-    },
-    {
       "Name": "Skill07",
       "SkillType": "Skill",
       "UseType": "SelectEntity",
@@ -143,8 +134,7 @@
     "Monster_Common_PassiveSkill_StanceBreak_Action",
     "Monster_SW_Boss_01_Passive01",
     "Monster_SW_Boss_01_PassiveSkill_Insert",
-    "Monster_SW_Boss_01_PassiveSkill_Insert_Camera",
-    "Monster_Common_Suicide_StanceBreak"
+    "Monster_SW_Boss_01_PassiveSkill_Insert_Camera"
   ],
   "SkillAbilityList": [
     {

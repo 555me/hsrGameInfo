@@ -50,15 +50,6 @@
         "TargetType": "Caster"
       },
       "EntryAbility": "Monster_SW_Minion01_02_Passive01"
-    },
-    {
-      "Name": "PassiveSkill_Suicide",
-      "SkillType": "Passive",
-      "UseType": "Passive",
-      "TargetInfo": {
-        "TargetType": "Caster"
-      },
-      "EntryAbility": "Monster_Common_Suicide_StanceBreak"
     }
   ],
   "AbilityList": [
@@ -72,8 +63,7 @@
       "AbilityList": [
         "Monster_SW_Minion01_02_Skill01_Camera",
         "Monster_SW_Minion01_02_Skill01_Phase01",
-        "Monster_SW_Minion01_02_Skill01_Phase02",
-        "Monster_Common_Suicide_StanceBreak"
+        "Monster_SW_Minion01_02_Skill01_Phase02"
       ]
     }
   ],

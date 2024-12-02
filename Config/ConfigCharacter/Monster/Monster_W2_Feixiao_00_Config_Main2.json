@@ -517,6 +517,7 @@
     "MissionTalkStart": 0,
     "MaxStance": 0,
     "CurrentStance": 0,
+    "BattleEventPartFlag": 0,
     "ChangePhase_MaxHPValue": 0
   },
   "ArmorType": "Armor_Metal",

@@ -130,15 +130,6 @@
         "TargetType": "Caster"
       },
       "EntryAbility": "Monster_SW_Boss_00_Passive01_Fever"
-    },
-    {
-      "Name": "PassiveSkill_Suicide",
-      "SkillType": "Passive",
-      "UseType": "Passive",
-      "TargetInfo": {
-        "TargetType": "Caster"
-      },
-      "EntryAbility": "Monster_Common_Suicide_StanceBreak"
     }
   ],
   "AbilityList": [
@@ -147,8 +138,7 @@
     "Monster_SW_Boss_00_PassiveSkill_Insert",
     "Monster_SW_Boss_00_PassiveSkill_Insert2",
     "Monster_SW_Boss_00_PassiveSkill_Insert_Phase01",
-    "Monster_SW_Boss_00_PassiveSkill_Camera",
-    "Monster_Common_Suicide_StanceBreak"
+    "Monster_SW_Boss_00_PassiveSkill_Camera"
   ],
   "SkillAbilityList": [
     {

@@ -207,7 +207,9 @@
         "PredicateList": [
           {
             "$type": "RPG.GameCore.ByCompareDynamicValue",
-            "DynamicKey": "EnergyBar_CurEnergy",
+            "DynamicKey": {
+              "Value": "EnergyBar_CurEnergy"
+            },
             "CompareType": "GreaterEqual",
             "CompareValue": {
               "IsDynamic": true,
@@ -226,7 +228,9 @@
               "$type": "RPG.GameCore.TargetAlias",
               "Alias": "Caster"
             },
-            "ModifierName": "MAvatar_SwordTraining_Mar_7th_10_Enhance"
+            "ModifierName": {
+              "Value": "MAvatar_SwordTraining_Mar_7th_10_Enhance"
+            }
           }
         ]
       }

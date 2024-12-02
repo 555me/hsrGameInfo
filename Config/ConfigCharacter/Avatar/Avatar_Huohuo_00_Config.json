@@ -244,7 +244,7 @@
           }
         ]
       },
-      "AIUltraSkillPriority": "AddSP"
+      "AIUltraSkillPriority": "AddTeamSP"
     },
     {
       "Name": "SkillP01",

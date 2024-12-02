@@ -148,7 +148,8 @@
     "Monster_Common_PassiveSkill_StanceBreak_Action",
     "Monster_W2_LycanKing_00_SkillP02",
     "Monster_W2_LycanKing_00_SkillP03",
-    "Monster_W2_LycanKing_00_RLBoss_SkillP05"
+    "Monster_W2_LycanKing_00_RLBoss_SkillP05",
+    "BattleEventAbility_Monster_W2_LycanKing_00_StanceDamage"
   ],
   "SkillAbilityList": [
     {
@@ -333,6 +334,12 @@
           "Str": "SkillP01"
         }
       },
+      "-2084756422": {
+        "ReadInfo": {
+          "Type": "BattleEvent",
+          "Str": "SkillP01"
+        }
+      },
       "-1800501827": {
         "ReadInfo": {
           "Type": "None",
@@ -408,6 +415,8 @@
     }
   },
   "CustomValues": {
+    "WolfSummon01": 203201003,
+    "WolfSummon02": 203202004,
     "AIFlag": 1,
     "PhaseFlag": 1,
     "Wolf_AttackCount": 0,

@@ -104,15 +104,6 @@
         "TargetType": "Caster"
       },
       "EntryAbility": "Monster_W3_AventurinePart_00_Passive01_RL"
-    },
-    {
-      "Name": "PassiveSkill_Suicide",
-      "SkillType": "Passive",
-      "UseType": "Passive",
-      "TargetInfo": {
-        "TargetType": "Caster"
-      },
-      "EntryAbility": "Monster_Common_Suicide_StanceBreak"
     }
   ],
   "AbilityList": [
@@ -121,8 +112,7 @@
     "Monster_W3_AventurinePart_00_Passive01_RL",
     "Monster_W3_AventurinePart_00_DeathRattle_RL",
     "Monster_W3_AventurinePart_00_NoDeathRattle_RL",
-    "Monster_W3_AventurinePart_00_Skill01_Camera_RL",
-    "Monster_Common_Suicide_StanceBreak"
+    "Monster_W3_AventurinePart_00_Skill01_Camera_RL"
   ],
   "SkillAbilityList": [
     {
