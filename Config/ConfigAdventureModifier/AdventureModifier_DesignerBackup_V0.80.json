@@ -5,13 +5,11 @@
         {
           "$type": "RPG.GameCore.PredicateTaskList",
           "Predicate": {
-            "$type": "RPG.GameCore.ByIsLastBattleWin",
-            "TaskEnabled": true
+            "$type": "RPG.GameCore.ByIsLastBattleWin"
           }
         },
         {
-          "$type": "RPG.GameCore.SetAdventureDynamicValue",
-          "TaskEnabled": true
+          "$type": "RPG.GameCore.SetAdventureDynamicValue"
         }
       ]
     },
@@ -23,8 +21,7 @@
       "OnCreate": [],
       "OnStack": [
         {
-          "$type": "RPG.GameCore.SetAdventureDynamicValue",
-          "TaskEnabled": true
+          "$type": "RPG.GameCore.SetAdventureDynamicValue"
         }
       ],
       "Stacking": "Replace"

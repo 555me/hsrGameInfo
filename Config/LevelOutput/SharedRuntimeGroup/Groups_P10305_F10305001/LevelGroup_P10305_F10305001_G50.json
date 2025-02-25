@@ -1,19 +1,24 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "NPC",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10305_F10305001_G50",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
+  "AtmosphereCondition": {},
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
   "ConflictWhiteList": [],
-  "TagContainer": {},
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -32,11 +37,13 @@
       "ServerInteractVerificationIDList": [],
       "BoardShowList": [],
       "OverrideNPCTitle": {
-        "Hash": -1987642313
+        "Hash": 2693534622008310077
       },
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100030000,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -52,6 +59,7 @@
   ],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
   "SmartObjectList": [
     {
@@ -60,11 +68,19 @@
           "PlayeMode": "Loop",
           "PointList": [
             {
-              "RestartMode": "RestartFromSO"
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_PlayFreeStyle",
+                "StoryAvatarID": "3",
+                "StoryMotionID": 100030325
+              }
             },
             {
-              "PosX": -2.2691453E+32,
-              "PosZ": 6.397397E-10
+              "RestartMode": "RestartFromSO",
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Wait",
+                "Time": 10
+              }
             }
           ]
         }
@@ -76,5 +92,7 @@
       "PosY": 3.902961,
       "PosZ": -427.5143
     }
-  ]
+  ],
+  "CurveList": [],
+  "LittleGameList": []
 }

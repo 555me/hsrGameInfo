@@ -1,13 +1,11 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "NPC",
+  "Category": "Atmosphere",
   "LevelGraph": "Config/Level/GroupGraph/F10305001/Group_F10305001_G3.json",
   "AreaAnchorName": "LevelArea_P10305_F10305001_G3",
   "SaveType": "Reset",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
+  "AtmosphereCondition": {},
   "LoadOnInitial": true,
   "RandomInit": {
     "ControlList": [
@@ -53,6 +51,14 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      }
+    ]
+  },
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -517,6 +523,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -541,6 +549,8 @@
       "DefaultAnimationType": "IdleState",
       "DefaultIdleFreeStyleMotionID": 100020000,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -565,6 +575,8 @@
       "DefaultAnimationType": "IdleState",
       "DefaultIdleFreeStyleMotionID": 100020000,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -601,6 +613,8 @@
       "DefaultAnimationType": "IdleState",
       "DefaultIdleFreeStyleMotionID": 100020000,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -637,6 +651,8 @@
       "DefaultAnimationType": "IdleState",
       "DefaultIdleFreeStyleMotionID": 100020000,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -673,6 +689,8 @@
       "DefaultAnimationType": "IdleState",
       "DefaultIdleFreeStyleMotionID": 100020000,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -709,6 +727,8 @@
       "DefaultAnimationType": "IdleState",
       "DefaultIdleFreeStyleMotionID": 100020000,
       "InitialHiddenNodeList": [],
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -725,6 +745,7 @@
   ],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
   "SmartObjectList": [
     {
@@ -735,27 +756,57 @@
             {
               "PosX": 0.348,
               "PosY": -0.467979,
-              "PosZ": -1.220764
+              "PosZ": -1.220764,
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "FinishAfterStop": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayFreeStyle",
+                    "StoryAvatarID": "NPC_Lady",
+                    "StoryMotionID": 100020221
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait",
+                    "Time": 10
+                  }
+                ],
+                "WaitMessages": []
+              }
             },
             {
-              "RotY": 2.4075232E-35
+              "PosX": 1.092,
+              "PosY": -0.467979,
+              "PosZ": -3.622,
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "FinishAfterStop": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayFreeStyle",
+                    "StoryAvatarID": "NPC_Lady",
+                    "StoryMotionID": 100020335
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait",
+                    "Time": 10
+                  }
+                ],
+                "WaitMessages": []
+              }
             }
           ]
         }
       ],
-      "CommonPointList": [
-        {
-          "PosY": 2.501526E-35,
-          "RotY": 208.30481
-        },
-        {
-          "ID": 76,
-          "PosX": -2.0718686E+37,
-          "PosY": 3.386693E-32,
-          "PosZ": 1.0842024E-19,
-          "RotY": -21523.627
-        }
-      ],
+      "CommonPointList": [],
       "Name": "SmartObject1",
       "ID": 1,
       "PosX": -35.11682,
@@ -765,24 +816,69 @@
     {
       "SlotList": [
         {
-          "PlayeMode": -3
+          "PlayeMode": "Loop",
+          "PointList": [
+            {
+              "PosX": 74.91,
+              "PosY": -0.467976,
+              "PosZ": -0.892,
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "FinishAfterStop": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayFreeStyle",
+                    "StoryAvatarID": "NPC_Lady",
+                    "StoryMotionID": 100020221
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait",
+                    "Time": 10
+                  }
+                ],
+                "WaitMessages": []
+              }
+            },
+            {
+              "PosX": 67.79,
+              "PosY": -0.467973,
+              "PosZ": -3.29,
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "FinishAfterStop": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayFreeStyle",
+                    "StoryAvatarID": "NPC_Lady",
+                    "StoryMotionID": 100020335
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait",
+                    "Time": 10
+                  }
+                ],
+                "WaitMessages": []
+              }
+            }
+          ]
         }
       ],
-      "CommonPointList": [
-        {
-          "PosZ": 1.4073835E+19
-        },
-        {
-          "PosY": -7.718312E+28,
-          "PosZ": 3.3866933E-32
-        },
-        {
-          "PosX": 10
-        }
-      ],
-      "ID": 2547769202,
-      "PosX": 4.7767014E-38,
-      "PosZ": 6.66548E-27
+      "CommonPointList": [],
+      "Name": "SmartObject2",
+      "ID": 2,
+      "PosX": -35.11682,
+      "PosY": -15.45709,
+      "PosZ": -250.9013
     }
-  ]
+  ],
+  "CurveList": [],
+  "LittleGameList": []
 }

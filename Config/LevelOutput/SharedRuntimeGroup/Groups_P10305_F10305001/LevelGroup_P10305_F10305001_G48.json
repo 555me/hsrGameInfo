@@ -1,18 +1,23 @@
 {
   "$type": "RPG.GameCore.RtLevelGroupInfo",
   "GroupName": "NPC",
+  "Category": "Atmosphere",
   "AreaAnchorName": "LevelArea_P10305_F10305001_G48",
-  "SavedValueCondition": {
-    "Conditions": [],
-    "Operation": "And"
-  },
+  "AtmosphereCondition": {},
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "ConflictWhiteList": [],
-  "TagContainer": {},
+  "TagContainer": {
+    "List": [
+      {
+        "Tag": "Group.Atomsphere.NPC",
+        "TagHash": -882113524
+      }
+    ]
+  },
   "AnchorList": [
     {
       "Name": "Anchor1",
@@ -70,6 +75,8 @@
           }
         ]
       },
+      "DialogueTriggerSkipSpecifiedFakeAvatarList": [],
+      "OverrideReplaceMaterialKeyList": [],
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "CaptureDistanceTolerance": 10,
@@ -86,6 +93,7 @@
   ],
   "CrowdList": [],
   "PedestrianList": [],
+  "PedestrianV2List": [],
   "AudienceList": [],
   "SmartObjectList": [
     {
@@ -95,42 +103,154 @@
           "PointList": [
             {
               "PosX": -1.97,
-              "PosZ": 2.726
-            },
-            {
-              "RotY": 2.4075232E-35
-            },
-            {
-              "PosZ": 9.478011E-38
-            },
-            {
-              "PosZ": 1.0212448E-37,
-              "RotY": 25
+              "PosZ": 2.726,
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_FaceTo",
+                    "AnchorGroupId": 48,
+                    "AnchorPointId": 1
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait",
+                    "Time": 25
+                  }
+                ],
+                "WaitMessages": []
+              }
             },
             {
               "PosX": -1.33,
-              "PosZ": 5.2
+              "PosZ": 5.2,
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_FaceTo",
+                    "AnchorGroupId": 48,
+                    "AnchorPointId": 2
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayFreeStyle",
+                    "StoryAvatarID": "1",
+                    "StoryMotionID": 100010209
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait",
+                    "Time": 25
+                  }
+                ],
+                "WaitMessages": []
+              }
             },
             {
-              "RotY": 3.852037E-34
+              "PosX": 1.917,
+              "PosZ": 5.531,
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait",
+                    "Time": 25
+                  }
+                ],
+                "WaitMessages": []
+              }
+            },
+            {
+              "PosX": 3.05,
+              "PosZ": 3.235,
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_FaceTo",
+                    "AnchorGroupId": 48,
+                    "AnchorPointId": 3
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_PlayFreeStyle",
+                    "StoryAvatarID": "1",
+                    "StoryMotionID": 100010221
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait",
+                    "Time": 25
+                  }
+                ],
+                "WaitMessages": []
+              }
+            },
+            {
+              "PosX": 2.238,
+              "PosZ": 1.311,
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait",
+                    "Time": 25
+                  }
+                ],
+                "WaitMessages": []
+              }
+            },
+            {
+              "PosX": -0.89,
+              "PosZ": 0.959,
+              "RootTask": {
+                "$type": "RPG.GameCore.SO_Sequence",
+                "Tasks": [
+                  {
+                    "$type": "RPG.GameCore.SO_MoveTo",
+                    "MoveStance": "Walk",
+                    "SkipStartTurn": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.SO_Wait",
+                    "Time": 25
+                  }
+                ],
+                "WaitMessages": []
+              }
             }
           ]
         }
       ],
-      "CommonPointList": [
-        {
-          "PosY": 1.0015139E-31,
-          "PosZ": 2.5016127E-35
-        },
-        {
-          "ID": 49
-        }
-      ],
+      "CommonPointList": [],
       "Name": "SmartObject1",
       "ID": 1,
       "PosX": -0.714132,
       "PosY": 1.55316,
       "PosZ": -406.1059
     }
-  ]
+  ],
+  "CurveList": [],
+  "LittleGameList": []
 }
